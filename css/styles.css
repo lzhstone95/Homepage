@@ -1034,7 +1034,7 @@ h6, .h6 {
     bottom: 0;
     background-color: var(--primary);
     width: var(--sidebar-width);
-    padding: 64px 24px 40px;
+    padding: 10px 24px 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1703,8 +1703,7 @@ h6, .h6 {
 
 .about-info .about-info__block {
     margin-bottom: 32px;
-    padding-top: 32px;
-    border-top: 1px solid var(--border-color);
+    padding-top: 0px; 
 }
 
 .about-info .about-info__text,
