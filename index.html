@@ -121,7 +121,43 @@
         </aside>
         <!-- End:: sidebar -->
         <!-- Start:: main -->
-        <main id="main"> 
+        <main id="main">
+
+             <!-- Start:: header -->
+            <header id="header">
+                <div class="container">
+                    <ul class="lang unlist">
+                        <li><a href="index.html" class="active underline-animation">English</a></li>
+                        <li><a href="#" class="underline-animation">Chinese</a></li>
+                    </ul>
+        
+                    <!-- ========================= -->
+                    <!--   Start:: theme setting   -->
+                    <!-- ========================= -->
+                    <div class="setting">
+                        <span id="time"></span>
+                    <p>  <script>
+                        function show(){
+                            var date = new Date();
+                            var year = date.getFullYear();
+                            var month = date.getMonth()+1;
+                            month=month<10?"0"+month:month;
+                            var day = date.getDate();
+                            day=day<10?"0"+day:day;
+                            var result = year+"/"+month+"/"+day+" ";
+                            document.getElementById("time").innerHTML = result;
+                        }
+                        show();
+                        setInterval("show()");
+                    </script> </p> 
+                    </div>
+                    <!-- ========================= -->
+                    <!--    End:: theme setting    -->
+                    <!-- ========================= -->
+                </div>
+            </header>
+            <!-- End:: header -->
+            
             <!-- Start:: about section -->
             <section id="about" class="section">
                 <div class="container">
