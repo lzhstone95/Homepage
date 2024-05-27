@@ -2717,6 +2717,7 @@ h6, .h6 {
 
     .service .service__text {
         width: 70%;
+        display: grid;
     }
 
     .portfolio-head,
