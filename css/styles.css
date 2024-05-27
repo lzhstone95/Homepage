@@ -1870,7 +1870,7 @@ h6, .h6 {
 .service .service__text {
     flex: 0 0 auto;
     width: 100%;
-    display: grid;
+    align-items: center;
 }
 
 /* Portfolio section */
@@ -2717,7 +2717,6 @@ h6, .h6 {
 
     .service .service__text {
         width: 70%;
-        display: grid;
     }
 
     .portfolio-head,
