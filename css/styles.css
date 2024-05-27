@@ -1191,7 +1191,7 @@ h6, .h6 {
 }
 
 .lang a:not(.active) {
-    opacity: 0.7;
+    opacity: 1.0;
 }
 
 .lang li:not(:first-child) {
