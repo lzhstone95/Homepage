@@ -70,7 +70,7 @@
     /* Grid config */
     --gutter-x: 32px;
     --gutter-y: 0;
-    --section-padding-top: 5px;
+    --section-padding-top: -1px;
     --section-padding-bottom: 10px;
     --section-heading-spacing: 5px;
 
