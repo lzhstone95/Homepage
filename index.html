@@ -39,7 +39,7 @@
         <div id="loader_bar"></div>
     </div>     
         <!-- Start:: main -->
-        <main id="main" style="text-align: center;">
+        <main id="main">
              <!-- Start:: header -->
             <section id="header">
                 <div class="container">
@@ -47,29 +47,6 @@
                         <li><a href="index.html" class="active underline-animation">English</a></li>
                         <li><a href="https://faculty.ustc.edu.cn/lizhonghui/zh_CN/index.htm" class="underline-animation">Chinese(中文)</a></li>
                     </ul>
-                    <!-- ========================= -->
-                    <!--   Start:: theme setting   -->
-                    <!-- ========================= -->
-                    <div class="setting">
-                        <span id="time"></span>
-                    <p>  <script>
-                        function show(){
-                            var date = new Date();
-                            var year = date.getFullYear();
-                            var month = date.getMonth()+1;
-                            month=month<10?"0"+month:month;
-                            var day = date.getDate();
-                            day=day<10?"0"+day:day;
-                            var result = year+"/"+month+"/"+day+" ";
-                            document.getElementById("time").innerHTML = result;
-                        }
-                        show();
-                        setInterval("show()");
-                    </script> </p> 
-                    </div>
-                    <!-- ========================= -->
-                    <!--    End:: theme setting    -->
-                    <!-- ========================= -->
                 </div>
             </section>
             <!-- End:: header -->
