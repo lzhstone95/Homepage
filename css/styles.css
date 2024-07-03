@@ -70,9 +70,9 @@
     /* Grid config */
     --gutter-x: 32px;
     --gutter-y: 0;
-    --section-padding-top: 20px;
-    --section-padding-bottom: 40px;
-    --section-heading-spacing: 20px;
+    --section-padding-top: 5px;
+    --section-padding-bottom: 10px;
+    --section-heading-spacing: 5px;
 
     /* Button config */
     --btn-padding-x: 2rem;
@@ -1720,7 +1720,7 @@ h6, .h6 {
 }
 
 .about-block {
-    margin-top: 64px;
+    margin-top: 10px;
 }
 
 .experience-list {
@@ -2692,7 +2692,7 @@ h6, .h6 {
     }
 
     .experience {
-        width: 66.66666667%;
+        width: 100%;
     }
 
     .projects-1 {
