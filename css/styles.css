@@ -2465,7 +2465,7 @@ h6, .h6 {
     }
 
     .experience-list .experience-list__item {
-        width: 100%;
+        width: 50%;
     }
     
     .experience-list .experience-list__title {
@@ -2692,7 +2692,7 @@ h6, .h6 {
     }
 
     .experience {
-        width: 100%;
+        width: 66.66666667%;
     }
 
     .projects-1 {
