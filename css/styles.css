@@ -1758,7 +1758,7 @@ h6, .h6 {
 }
 
 .skill-list__item:not(:first-child) {
-    margin-top: 20px;
+    margin-top: 48px;
 }
 
 .skill-list .skill-list__title {
