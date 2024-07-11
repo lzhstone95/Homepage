@@ -121,8 +121,52 @@
             <section id="header">
                 <div class="container">
                     <ul class="lang unlist">
-                        <li><a href="index.html" class="active underline-animation">English</a></li>
-                        <li><a href="https://faculty.ustc.edu.cn/lizhonghui/zh_CN/index.htm" class="underline-animation">Chinese(中文)</a></li>
+                        <li><b><a href="https://faculty.ustc.edu.cn/lizhonghui/zh_CN/index.htm" class="underline-animation">Chinese(中文)</a></b></li>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                        <li>
+                            <b>
+                            <span id="time"></span>
+                                        <p>
+                                            <script>
+                                                function time_show(){
+                                                    var date = new Date();
+                                                    var year = date.getFullYear();
+                                                    var month = date.getMonth()+1;
+                                                    month=month<10?"0"+month:month;
+                                                    var day = date.getDate();
+                                                    day=day<10?"0"+day:day;
+                                                    var result =day+"/"+month+"/"+year;
+                                                    document.getElementById("time").innerHTML = result;
+                                                    }
+                                                time_show();
+                                                setInterval("time_show()");
+                                            </script>
+                                        </p>
+                                    </b>
+                        </li>
+                        <li>
+                            <b>
+                            <span id="time1"></span>
+                            <p>
+                                <script>
+                                    function week_show(){
+                                        var data1= new Date().getDay();
+                                        var week;
+                                        if(data1==0) week="星期日";
+                                        if(data1==1) week="星期一";
+                                        if(data1==2) week="星期二";
+                                        if(data1==3) week="星期三";
+                                        if(data1==4) week="星期四";
+                                        if(data1==5) week="星期五";
+                                        if(data1==6) week="星期六";
+                                        document.getElementById("time1").innerHTML = week;
+                                    }
+                                    week_show();
+                                    setInterval("week_show()");
+                                </script>
+                            </p>
+                            </b>
+                        </li> 
                     </ul>
                 </div>
             </section>
