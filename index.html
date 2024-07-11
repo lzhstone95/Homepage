@@ -134,7 +134,7 @@
                                                     month=month<10?"0"+month:month;
                                                     var day = date.getDate();
                                                     day=day<10?"0"+day:day;
-                                                    var result =day+"/"+month+"/"+year;
+                                                    var result =year+"-"+month+"-"+day;
                                                     document.getElementById("time").innerHTML = result;
                                                     }
                                                 time_show();
@@ -250,7 +250,7 @@
                     <!-- Bpublication head -->
                     <div class="blog-head relative">
                         <div class="blog-content relative">
-                            <h3 class="mb-0"><u>Selected Publications</u></h3>
+                            <h3 class="mb-0"></span><u>Selected <span class="fw-semibold">Publications</span></u></h3>
                         </div>
                     </div>
                     <!-- publication-1 -->
