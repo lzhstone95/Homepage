@@ -31,8 +31,8 @@
  * 01. CSS Variables
  * ---------------------------------------------------------------- */
 :root {
-    /* Theme colors */
-    --primary: #176B87;
+    /* Theme colors #176B87; */
+    --primary: #feffff;
     --primary-rgb: 23, 107, 135;    
     --secondary: #64CCC5;
     --secondary-rgb: 100, 204, 197;    
