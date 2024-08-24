@@ -31,10 +31,10 @@
  * 01. CSS Variables
  * ---------------------------------------------------------------- */
 :root {
-    /* Theme colors*/
+    /* Theme colors #176B87; */
     --primary: #176B87;
     --primary-rgb: 23, 107, 135;    
-    --secondary: #fcfcfc;
+    --secondary: #64CCC5;
     --secondary-rgb: 100, 204, 197;    
     --dark: #04364A;
     --dark-rgb: 4, 54, 74;
