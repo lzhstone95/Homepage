@@ -2087,16 +2087,6 @@ ul.social-network li {
     margin-bottom: 20px;
 }
 
-.lonon-quote-card p::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2.0px; 
-    background-color: rgb(238, 205, 205); 
-    position: absolute;
-    bottom: 0; 
-    left: 0;
-}
 
 .lonon-quote-card p.occupation {
     font-size: 14px;
