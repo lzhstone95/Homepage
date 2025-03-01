@@ -288,7 +288,7 @@ input[type="checkbox"] {
     /*    left: 0;*/
     overflow-y: scroll;
     z-index: 1001;
-    background-image: linear-gradient(to right top, #091edb, #091edb, #091edb, #091edb, #091edb);
+    background-image: linear-gradient(to right top, #263194, #263194, #263194, #263194, #263194);
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -1643,7 +1643,7 @@ ul.social-network li {
     padding: 20px 30px;
     margin-left: -100px;
     width: 60%;
-    background-image: linear-gradient(to right top, #091edb, #091edb, #091edb, #091edb, #091edb);
+    background-image: linear-gradient(to right top, #263194, #263194, #263194, #263194, #263194);
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2), 0 13px 24px -11px rgba(5, 86, 191, .6);
     margin-top: 45px;
 }
