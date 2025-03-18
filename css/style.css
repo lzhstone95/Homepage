@@ -394,7 +394,6 @@ input[type="checkbox"] {
     line-height: 1.5em;
     text-transform: uppercase;
     letter-spacing: 0px;
-    border-bottom: 1px solid #044dab;
 }
 
 #lonon-aside #lonon-main-menu ul li a {
@@ -405,11 +404,11 @@ input[type="checkbox"] {
 
 #lonon-aside #lonon-main-menu ul li a:hover {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 #lonon-aside #lonon-main-menu ul li.lonon-active a {
-    color: #fff;
+    color: #ffffff;
 }
 
 #lonon-aside #lonon-main-menu ul li.lonon-active a:after {
