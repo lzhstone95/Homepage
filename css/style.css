@@ -285,7 +285,8 @@ input[type="checkbox"] {
     /*    left: 0;*/
     overflow-y: scroll;
     z-index: 1001;
-    background-image: linear-gradient(to right top, #2a316b, #2a316b, #2a316b, #2a316b, #2a316b);
+    /*background-image: linear-gradient(to right top, #2a316b, #2a316b, #2a316b, #2a316b, #2a316b);*/
+    background-color: #2a316b;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
