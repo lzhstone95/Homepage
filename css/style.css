@@ -471,12 +471,6 @@ input[type="checkbox"] {
     padding: 2px;
 }
 
-#lonon-aside .lonon-footer ul li a p {
-    margin-top: 5px;
-    color: #fcfcfc;
-    font-size: 12px;
-}
-
 #lonon-aside .lonon-footer ul li a:hover,
 #lonon-aside .lonon-footer ul li a:active,
 #lonon-aside .lonon-footer ul li a:focus {
