@@ -467,7 +467,13 @@ input[type="checkbox"] {
 }
 
 #lonon-aside .lonon-footer ul li a {
-    color: #3f34d1;
+    color: #fcfcfc;
+    padding: 2px;
+}
+
+#lonon-aside .lonon-footer ul li p {
+    margin-top: 5px;
+    color: #fcfcfc;
     padding: 2px;
 }
 
