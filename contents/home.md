@@ -4,9 +4,9 @@
 #### Experience
 - School of Electronic and Information Engineering, Anhui University, 2025.04 - Now 
 
-- Ph.D., School of Cyber Science and Technology, University of Science and Technology of China, 2018.09 — 2023.06
+- Ph.D., School of Cyber Science and Technology, University of Science and Technology of China, 2018.09 - 2023.06
 
-- B.E., School of Information and Software Engineering, University of Electronic Science and Technology of China, 2014.09 — 2018.06
+- B.E., School of Information and Software Engineering, University of Electronic Science and Technology of China, 2014.09 - 2018.06
 
 #### Honors & Awards
 - Outstanding Doctoral Dissertation Award, Anhui Province, 2025.01.
