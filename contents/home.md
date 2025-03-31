@@ -4,9 +4,9 @@
 #### Experience
 - Associate Professor, School of Electronic and Information Engineering, Anhui University, 2025 - Now. 
 
-- Postdoctoral Fellow, School of Information Science and Technology, University of Science and Technology of China, 2023 - 2025.
+- Postdoctoral Fellow, School of Information Science and Technology, USTC, 2023 - 2025.
 
-- Ph.D., School of Cyber Science and Technology, University of Science and Technology of China, 2018 - 2023.
+- Ph.D., School of Cyber Science and Technology, University of Science and Technology of China (USTC), 2018 - 2023.
 
 - B.E., School of Information and Software Engineering, University of Electronic Science and Technology of China, 2014 - 2018.
 
