@@ -52,4 +52,4 @@
 
 - <p style="text-align:justify">[China Commun] **Zhonghui Li**, Kaiping Xue\*, Jian Li, Nenghai Yu, Jianqing Liu, David S. L. Wei, Qibin Sun, and Jun Lu. "Building a Large-Scale and Wide-Area Quantum Internet Based on an OSI-alike Model," China Communications, vol. 18, no. 10, pp. 1-14, 2021. </p>
 
-- <p style="text-align:justify">[Quantum Inf Process] Qidong Jia, Kaiping Xue\*, **Zhonghui Li**, Mengce Zheng, David S. L. Wei, and Nenghai Yu. "An Improved QKD Protocol without Public Announcement Basis using Periodically Derived Basis," Quantum Information Processing, vol. 20, no. 69, 2021. </p>
+- <p style="text-align:justify"><span style="color: crimson;">[1]-[Quantum Inf Process]</span> Qidong Jia, Kaiping Xue*, <b><u>Zhonghui Li</u></b>, Mengce Zheng, David S. L. Wei, and Nenghai Yu. <a href="https://link.springer.com/article/10.1007/s11128-021-03000-8" style="color: #323fac; font-weight: bold;">"An Improved QKD Protocol without Public Announcement Basis using Periodically Derived Basis,"</a> <span style="font-style: italic;">Quantum Information Processing</span>, vol. 20, no. 69, 2021.</p>
