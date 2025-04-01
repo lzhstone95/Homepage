@@ -1,4 +1,4 @@
- <p style="text-align:justify"><span style="color: crimson;">[2025-03] </span>Our paper "SwappingBoost: Optimizing Entanglement Routing by Mitigating Bottlenecks in Quantum Networks" is accepted by The 21st International Wireless Communications & Mobile Computing Conference (IWCMC 2025)!</p>                             
+ <p style="text-align:justify"><span style="color: crimson;">[2025-03] </span>Our paper "SwappingBoost: Optimizing Entanglement Routing by Mitigating Bottlenecks in Quantum Networks" is accepted by the International Wireless Communications & Mobile Computing Conference (IWCMC 2025)!</p>                             
 
 <p style="text-align:justify"><span style="color: crimson;">[2025-02] </span>Our paper "IPSeQ: A Security-Enhanced IPSec Protocol Integrated with Quantum Key Distribution" is accepted by IEEE Communications Magazine!</p>
 
