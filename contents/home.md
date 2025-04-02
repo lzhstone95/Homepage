@@ -17,3 +17,6 @@
 ### Research Interests
 Quantum Communication and Networks, Distributed Quantum Computing, and Quantum Artificial Intelligence.
 
+
+### Attention
+If you have a strong passion for doing research on quantum communication and quantum computing, this may be the right place for you. I am particularly interested in self-motivated students who are willing to spend their golden times here with this group. If interested, please send me your resume and transcripts in pdf form to my email.
