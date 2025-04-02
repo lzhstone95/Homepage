@@ -1,5 +1,7 @@
 <p style="text-align:justify"> I am currently a post-doctoral researcher at the School of Cyber Science and Technology, University of Science and Technology of China (USTC). I received my bachelor's degree from the School of Information and Software Engineering, University of Electronic Science and Technology of China, in 2018 and received my Ph.D degree from the School of Cyber Science and Technology, USTC, in 2023. So far, I have published more than 20 papers in international journals or conferences such as IEEE Communications Surveys & Tutorials, IEEE/ACM Transactions on Networking, IEEE Network, IEEE Transactions on Network and Service Management (TNSM), China Communications, etc. Besides, I have been invited many times to be a reviewer for international journals such as China Communications, IEEE Network, IEEE TNSM, IET Quantum Communications, IEEE Transactions on Quantum Engineering (TQE), and Quantum Information Processing. </p>
 
+- __Attention__: If you have a strong passion for doing research on quantum communication and quantum computing, this may be the right place for you. I am particularly interested in self-motivated students who are willing to spend their golden times here with this group. If interested, please send me your resume and transcripts in pdf form to my email.
+
 ### Experience
 - Associate Professor, School of Electronic and Information Engineering, Anhui University, 2025 - Now
 
@@ -17,6 +19,3 @@
 ### Research Interests
 Quantum Communication and Networks, Distributed Quantum Computing, and Quantum Artificial Intelligence.
 
-
-### Attention
-If you have a strong passion for doing research on quantum communication and quantum computing, this may be the right place for you. I am particularly interested in self-motivated students who are willing to spend their golden times here with this group. If interested, please send me your resume and transcripts in pdf form to my email.
