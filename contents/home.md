@@ -19,5 +19,5 @@ __Attention:__ If you have a strong passion for doing research on quantum commun
 - Outstanding Paper Award, China Association for Science and Technology, 2022.10
 
 ### Research Interests
-Quantum Communication and Networks, Distributed Quantum Computing, and Quantum Artificial Intelligence.
+Quantum Networking, Distributed Quantum Computing, and Quantum Artificial Intelligence.
 
