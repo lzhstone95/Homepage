@@ -1,3 +1,6 @@
+<p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Peng Zheng, Jian Li*, <b><u>Zhonghui Li</u></b>, Kaiping Xue*, Nenghai Yu, Ruidong Li, Qibin Sun, and Jun Lu. An Efficient and Robust Resource Allocation
+Method for Quantum Key Distribution Networks, submitted to IEEE Transactions on Network and Service Management.</p>
+
 <p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Peng Zheng, Weixin Xie, <b><u>Zhonghui Li</u></b>, Jian Li, Kaiping Xue*, Guanjie Fanyuan, Shuang Wang, Wei Chen, Nenghai Yu, Guangcan Guo, and Zhengfu Han. Towards an adaptive multi-user quantum key distribution network, submitted to Physical Review A.</p>
 
 <p style="text-align:justify"><span style="color: crimson;">[Major Revision]</span> Yuxin Chen, Jian Li*, <b><u>Zhonghui Li</u></b>, Kaiping Xue, Nenghai Yu, Qibin Sun, and Jun Lu. An Asynchronous Key Relay Protocol Design for Large-scale Quantum Key Distribution Networks, submitted to IEEE Transactions on Networking.</p>
