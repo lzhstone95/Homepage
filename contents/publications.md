@@ -1,7 +1,9 @@
+<p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Jiesheng Tan, <b><u>Zhonghui Li</u></b>, Jian Li, Bin Liu*, and Nenghai Yu. Distributed Entanglement Routing Scheme with Fidelity Guarantee in Quantum Networks, submitted to IEEE Transactions on Network Science and Engineering.</p>
+
 <p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Peng Zheng, Jian Li*, <b><u>Zhonghui Li</u></b>, Kaiping Xue*, Nenghai Yu, Ruidong Li, Qibin Sun, and Jun Lu. An Efficient and Robust Resource Allocation
 Method for Quantum Key Distribution Networks, submitted to IEEE Transactions on Network and Service Management.</p>
 
-<p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Peng Zheng, Weixin Xie, <b><u>Zhonghui Li</u></b>, Jian Li, Kaiping Xue*, Guanjie Fanyuan, Shuang Wang, Wei Chen, Nenghai Yu, Guangcan Guo, and Zhengfu Han. Towards an adaptive multi-user quantum key distribution network, submitted to Physical Review A.</p>
+<p style="text-align:justify"><span style="color: crimson;">[Major Revision]</span> Peng Zheng, Weixin Xie, <b><u>Zhonghui Li</u></b>, Jian Li, Kaiping Xue*, Guanjie Fanyuan, Shuang Wang, Wei Chen, Nenghai Yu, Guangcan Guo, and Zhengfu Han. Towards an adaptive multi-user quantum key distribution network, submitted to Physical Review A.</p>
 
 <p style="text-align:justify"><span style="color: crimson;">[Major Revision]</span> Yuxin Chen, Jian Li*, <b><u>Zhonghui Li</u></b>, Kaiping Xue, Nenghai Yu, Qibin Sun, and Jun Lu. An Asynchronous Key Relay Protocol Design for Large-scale Quantum Key Distribution Networks, submitted to IEEE Transactions on Networking.</p>
 
@@ -11,13 +13,13 @@ Method for Quantum Key Distribution Networks, submitted to IEEE Transactions on 
 
 <p style="text-align:justify"><span style="color: crimson;">[IWCMC'25]</span> Bing Yang, <b><u>Zhonghui Li*</u></b>, Kaiping Xue, Lutong Chen, Qibin Sun, and Jun Lu. <a href="" style="color: #3948D2; font-weight: bold;">SwappingBoost: Optimizing Entanglement Routing by Mitigating Bottlenecks in Quantum Networks,</a> accepted by<span style="font-style: italic;"> the 21st International Wireless Communications & Mobile Computing Conference</span>, 2025.</p>
 
-<p style="text-align:justify"><span style="color: crimson;">[QCNC'25]</span> Yuqi Yang, Jian Li*, <b><u>Zhonghui Li</u></b>, Shaochuang Heng, Lutong Chen, Qibin Sun, and Jun Lu. <a href="" style="color: #3948D2; font-weight: bold;">An On-demand Routing Scheme with QoS Provisioning for QKD Networks,</a> accepted by<span style="font-style: italic;"> International Conference on Quantum Communications, Networking, and Computing</span>, 2025.</p>
-
 <p style="text-align:justify"><span style="color: crimson;">[IEEE ICC'25]</span> Ye Zhang, Feng Wang, Jianbin Zeng, Lutong Chen, Xuanbo Huang, <b><u>Zhonghui Li</u></b>, and Kaiping Xue*. <a href="" style="color: #3948D2; font-weight: bold;">User Behavior-Based Dynamic Authentication Design for Enhanced Identity Security,</a> accepted by<span style="font-style: italic;"> IEEE International Conference on Communications</span>, 2025.</p>
                                 
-<p style="text-align:justify"><span style="color: crimson;">[IEEE JSAC]</span> Jian Li, Peng Zheng, <b><u>Zhonghui Li*</u></b>, Yuqi Yang, Nenghai Yu, Qibin Sun, and Jun Lu. <a href="" style="color: #3948D2; font-weight: bold;">Decentralized Key Management and Service in Quantum Key Distribution Networks: An Experimental Implementations,</a> accepted by<span style="font-style: italic;"> IEEE Journal on Selected Areas in Communications</span>, 2025.</p>
-
 ### Published
+
+<p style="text-align:justify"><span style="color: crimson;">[20]-[QCNC'25]</span> Yuqi Yang, Jian Li*, <b><u>Zhonghui Li</u></b>, Shaochuang Heng, Lutong Chen, Qibin Sun, and Jun Lu. <a href="#" style="color: #3948D2; font-weight: bold;">An On-demand Routing Scheme with QoS Provisioning for QKD Networks,</a> <span style="font-style: italic;"> International Conference on Quantum Communications, Networking, and Computing</span>, Nara, Japan, pp. 9-16, 2025.</p>
+
+<p style="text-align:justify"><span style="color: crimson;">[19]-[IEEE JSAC]</span> Jian Li, Peng Zheng, <b><u>Zhonghui Li*</u></b>, Yuqi Yang, Nenghai Yu, Qibin Sun, and Jun Lu. <a href="#" style="color: #3948D2; font-weight: bold;">Decentralized Key Management and Service in Quantum Key Distribution Networks: An Experimental Implementations,</a> <span style="font-style: italic;"> IEEE Journal on Selected Areas in Communications</span>, doi: 10.1109/JSAC.2025.3568040, 2025.</p>
 
 <p style="text-align:justify"><span style="color: crimson;">[18]-[IEEE Commun Mag]</span> Xumin Gao, Kaiping Xue*, Jian Li, <b><u>Zhonghui Li</u></b>, Jiaqi Wu, Nenghai Yu, Qibin Sun, and Jun Lu. <a href="https://ieeexplore.ieee.org/abstract/document/10924694" style="color: #3948D2; font-weight: bold;">IPSeQ: A Security-Enhanced IPSec Protocol Integrated with Quantum Key Distribution,</a> <span style="font-style: italic;"> IEEE Communications Magazine</span>, doi: 10.1109/MCOM.004.2400475, 2025.</p>
 
