@@ -9,13 +9,12 @@ Method for Quantum Key Distribution Networks, submitted to IEEE Transactions on 
 
 <p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Zirui Xiao, Kaiping Xue*, <b><u>Zhonghui Li</u></b>, Jian Li, Lutong Chen, and Ruidong Li. Hybrid Error Correction Design for High-fidelity Entanglement Distribution in Quantum Communication Networks, submitted to IEEE Transactions on Communications.</p>
 
-### Accepted
+                              
+### Journal & Conference
 
-<p style="text-align:justify"><span style="color: crimson;">[IWCMC'25]</span> Bing Yang, <b><u>Zhonghui Li*</u></b>, Kaiping Xue, Lutong Chen, Qibin Sun, and Jun Lu. <a href="" style="color: #3948D2; font-weight: bold;">SwappingBoost: Optimizing Entanglement Routing by Mitigating Bottlenecks in Quantum Networks,</a> accepted by<span style="font-style: italic;"> the 21st International Wireless Communications & Mobile Computing Conference</span>, 2025.</p>
+<p style="text-align:justify"><span style="color: crimson;">[22]-[IWCMC'25]</span> Bing Yang, <b><u>Zhonghui Li*</u></b>, Kaiping Xue, Lutong Chen, Qibin Sun, and Jun Lu. <a href="" style="color: #3948D2; font-weight: bold;">SwappingBoost: Optimizing Entanglement Routing by Mitigating Bottlenecks in Quantum Networks,</a> accepted by<span style="font-style: italic;"> 21st International Wireless Communications & Mobile Computing Conference</span>, Abu Dhabi, UAE, 2025.</p>
 
-<p style="text-align:justify"><span style="color: crimson;">[IEEE ICC'25]</span> Ye Zhang, Feng Wang, Jianbin Zeng, Lutong Chen, Xuanbo Huang, <b><u>Zhonghui Li</u></b>, and Kaiping Xue*. <a href="" style="color: #3948D2; font-weight: bold;">User Behavior-Based Dynamic Authentication Design for Enhanced Identity Security,</a> accepted by<span style="font-style: italic;"> IEEE International Conference on Communications</span>, 2025.</p>
-                                
-### Published
+<p style="text-align:justify"><span style="color: crimson;">[21]-[IEEE ICC'25]</span> Ye Zhang, Feng Wang, Jianbin Zeng, Lutong Chen, Xuanbo Huang, <b><u>Zhonghui Li</u></b>, and Kaiping Xue*. <a href="" style="color: #3948D2; font-weight: bold;">User Behavior-Based Dynamic Authentication Design for Enhanced Identity Security,</a> accepted by<span style="font-style: italic;"> IEEE International Conference on Communications</span>, Montreal, Canada, 2025.</p>
 
 <p style="text-align:justify"><span style="color: crimson;">[20]-[QCNC'25]</span> Yuqi Yang, Jian Li*, <b><u>Zhonghui Li</u></b>, Shaochuang Heng, Lutong Chen, Qibin Sun, and Jun Lu. <a href="#" style="color: #3948D2; font-weight: bold;">An On-demand Routing Scheme with QoS Provisioning for QKD Networks,</a> <span style="font-style: italic;"> International Conference on Quantum Communications, Networking, and Computing</span>, Nara, Japan, pp. 9-16, 2025.</p>
 
