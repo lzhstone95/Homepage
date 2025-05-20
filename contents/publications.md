@@ -1,4 +1,4 @@
-<p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Jiesheng Tan, <b><u>Zhonghui Li</u></b>, Jian Li, Bin Liu*, and Nenghai Yu. Distributed Entanglement Routing Scheme with Fidelity Guarantee in Quantum Networks, submitted to IEEE Transactions on Network Science and Engineering.</p>
+<p style="text-align:justify"><span style="color: crimson;">[Major Revision]</span> Jiesheng Tan, <b><u>Zhonghui Li</u></b>, Jian Li, Bin Liu*, and Nenghai Yu. Distributed Entanglement Routing Scheme with Fidelity Guarantee in Quantum Networks, submitted to IEEE Transactions on Network Science and Engineering.</p>
 
 <p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Peng Zheng, Jian Li*, <b><u>Zhonghui Li</u></b>, Kaiping Xue*, Nenghai Yu, Ruidong Li, Qibin Sun, and Jun Lu. An Efficient and Robust Resource Allocation
 Method for Quantum Key Distribution Networks, submitted to IEEE Transactions on Network and Service Management.</p>
