@@ -12,6 +12,8 @@ Method for Quantum Key Distribution Networks, submitted to IEEE Transactions on 
                               
 ### Accepted
 
+<p style="text-align:justify"><span style="color: crimson;">[23]-[IEEE TNSM]</span> Peng Zheng, Jian Li*, <b><u>Zhonghui Li</u></b>, Kaiping Xue*, Nenghai Yu, Ruidong Li, Qibin Sun, and Jun Lu. <a href="" style="color: #3948D2; font-weight: bold;">An Efficient and Robust Resource Allocation Method for Quantum Key Distribution Networks,</a> <span style="font-style: italic;"> accepted by IEEE Transactions on Network and Service Management</span>, 2025.</p>
+
 <p style="text-align:justify"><span style="color: crimson;">[22]-[IWCMC'25]</span> Bing Yang, <b><u>Zhonghui Li*</u></b>, Kaiping Xue, Lutong Chen, Qibin Sun, and Jun Lu. <a href="" style="color: #3948D2; font-weight: bold;">SwappingBoost: Optimizing Entanglement Routing by Mitigating Bottlenecks in Quantum Networks,</a> <span style="font-style: italic;"> 21st International Wireless Communications & Mobile Computing Conference</span>, Abu Dhabi, UAE, 2025.</p>
 
 <p style="text-align:justify"><span style="color: crimson;">[21]-[IEEE ICC'25]</span> Ye Zhang, Feng Wang, Jianbin Zeng, Lutong Chen, Xuanbo Huang, <b><u>Zhonghui Li</u></b>, and Kaiping Xue*. <a href="" style="color: #3948D2; font-weight: bold;">User Behavior-Based Dynamic Authentication Design for Enhanced Identity Security,</a> <span style="font-style: italic;"> IEEE International Conference on Communications</span>, Montreal, Canada, 2025. <span style="color: crimson;"><b>[Best Paper Award]</b></span></p>
