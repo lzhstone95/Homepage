@@ -7,7 +7,6 @@
 <p style="text-align:justify"><span style="color: crimson;">[Major Revision]</span> Zirui Xiao, Kaiping Xue*, <b><u>Zhonghui Li</u></b>, Jian Li, Lutong Chen, and Ruidong Li. Hybrid Error Correction Design for High-fidelity Entanglement Distribution in Quantum Communication Networks, submitted to IEEE Transactions on Communications.</p>
                          
 ---
----
 
 <p style="text-align:justify"><span style="color: crimson;">[23]-[IEEE TNSM]</span> Peng Zheng, Jian Li*, <b><u>Zhonghui Li</u></b>, Kaiping Xue*, Nenghai Yu, Ruidong Li, Qibin Sun, and Jun Lu. <a href="" style="color: #3948D2; font-weight: bold;">An Efficient and Robust Resource Allocation Method for Quantum Key Distribution Networks,</a> <span style="font-style: italic;"> accepted by IEEE Transactions on Network and Service Management</span>, 2025.</p>
 
