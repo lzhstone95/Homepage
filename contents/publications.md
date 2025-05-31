@@ -8,9 +8,8 @@ Method for Quantum Key Distribution Networks, submitted to IEEE Transactions on 
 <p style="text-align:justify"><span style="color: crimson;">[Major Revision]</span> Yuxin Chen, Jian Li*, <b><u>Zhonghui Li</u></b>, Kaiping Xue, Nenghai Yu, Qibin Sun, and Jun Lu. An Asynchronous Key Relay Protocol Design for Large-scale Quantum Key Distribution Networks, submitted to IEEE Transactions on Networking.</p>
 
 <p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Zirui Xiao, Kaiping Xue*, <b><u>Zhonghui Li</u></b>, Jian Li, Lutong Chen, and Ruidong Li. Hybrid Error Correction Design for High-fidelity Entanglement Distribution in Quantum Communication Networks, submitted to IEEE Transactions on Communications.</p>
-
-                              
-### Accepted
+                         
+---
 
 <p style="text-align:justify"><span style="color: crimson;">[22]-[IWCMC'25]</span> Bing Yang, <b><u>Zhonghui Li*</u></b>, Kaiping Xue, Lutong Chen, Qibin Sun, and Jun Lu. <a href="" style="color: #3948D2; font-weight: bold;">SwappingBoost: Optimizing Entanglement Routing by Mitigating Bottlenecks in Quantum Networks,</a> <span style="font-style: italic;"> 21st International Wireless Communications & Mobile Computing Conference</span>, Abu Dhabi, UAE, 2025.</p>
 
