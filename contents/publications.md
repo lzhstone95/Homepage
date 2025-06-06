@@ -6,7 +6,7 @@
                          
 <hr style="border-top: 2px solid black;">
 
-<p style="text-align:justify"><span style="color: crimson;">[24]-[IEEE/ACM ToN]</span> Yuxin Chen, Jian Li*, <b><u>Zhonghui Li</u></b>, Kaiping Xue, Nenghai Yu, Qibin Sun, and Jun Lu. <a href="" style="color: #3948D2; font-weight: bold;">An Asynchronous Key Relay Protocol Design for Large-scale Quantum Key Distribution Networks,</a> <span style="font-style: italic;">accepted by IEEE Transactions on Networking</span>, 2025.</p>
+<p style="text-align:justify"><span style="color: crimson;">[24]-[IEEE/ACM ToN]</span> Yuxin Chen, Jian Li*, <b><u>Zhonghui Li</u></b>, Kaiping Xue, Nenghai Yu, Qibin Sun, and Jun Lu. <a href="" style="color: #3948D2; font-weight: bold;">An Asynchronous Key Relay Protocol Design for Large-scale Quantum Key Distribution Networks,</a> <span style="font-style: italic;">accepted by IEEE/ACM Transactions on Networking</span>, 2025.</p>
 
 <p style="text-align:justify"><span style="color: crimson;">[23]-[IEEE TNSM]</span> Peng Zheng, Jian Li*, <b><u>Zhonghui Li</u></b>, Kaiping Xue*, Nenghai Yu, Ruidong Li, Qibin Sun, and Jun Lu. <a href="" style="color: #3948D2; font-weight: bold;">An Efficient and Robust Resource Allocation Method for Quantum Key Distribution Networks,</a> <span style="font-style: italic;"> accepted by IEEE Transactions on Network and Service Management</span>, 2025.</p>
 
