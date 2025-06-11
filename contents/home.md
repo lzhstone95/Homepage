@@ -2,7 +2,7 @@
 
 <p style="text-align:justify">🔥🔥🔥 If you have a strong passion for doing research on quantum communication and quantum computing, this may be the right place for you. I am particularly interested in self-motivated students who are willing to spend their times here for pursuing a master's degree. If you're interested, please send your resume and transcripts in pdf form to my email.</p>
 
-<b>Email:</b> leestone95@ahu.edu.cn &nbsp;&nbsp;&nbsp;&nbsp; <b>Location:</b> No. 111, Longchuan Road, Economic and Technological Development Zone, Hefei City, Anhui Province 
+<b>Email:</b> leestone95@ahu.edu.cn &nbsp;&nbsp;&nbsp;&nbsp; <b>Office:</b> Room 507B, Science and Engineering Building B, Qingyuan Campus, Anhui University.
 
 <hr style="border-top: 2px solid black;"> 
 
