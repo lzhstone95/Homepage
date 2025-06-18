@@ -4,7 +4,7 @@
                                 
 - <p style="text-align:justify"><span style="color: crimson; font-weight: bold;">Session Chair:</span> International Conference on Wireless Communications and Signal Processing (WC&SP), 2024.</p>
 
-- <p style="text-align:justify"><span style="color: crimson; font-weight: bold;">Reviewer:</span> International Conference on Wireless Communications and Signal Processing (WC&SP), 2024.</p>
+- <p style="text-align:justify"><span style="color: crimson; font-weight: bold;">Reviewer:</span> International Conference on Wireless Communications and Signal Processing (WC&SP), 2024; IEEE/CIC International Conference on Communications in China (IEEE/CIC ICCC), 2025.</p>
 
 ### International Journal
 
