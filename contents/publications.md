@@ -1,3 +1,5 @@
+<p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> <b><u>Zhonghui Li</u></b>, Jian Li, Kaiping Xue*, and Hyundong Shin*. HybridED: A Hybrid Entanglement Distribution Design for Efficient Quantum Teleportation in Quantum Communication Networks, submitted to IEEE Transactions on Communications.</p>
+
 <p style="text-align:justify"><span style="color: crimson;">[Major Revision]</span> Jiesheng Tan, <b><u>Zhonghui Li</u></b>, Jian Li, Bin Liu*, and Nenghai Yu. Distributed Entanglement Routing Scheme with Fidelity Guarantee in Quantum Networks, submitted to IEEE Transactions on Network Science and Engineering.</p>
 
 <p style="text-align:justify"><span style="color: crimson;">[Major Revision]</span> Peng Zheng, Weixin Xie, <b><u>Zhonghui Li</u></b>, Jian Li, Kaiping Xue*, Guanjie Fanyuan, Shuang Wang, Wei Chen, Nenghai Yu, Guangcan Guo, and Zhengfu Han. Towards an adaptive multi-user quantum key distribution network, submitted to Physical Review A.</p>
