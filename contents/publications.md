@@ -1,6 +1,6 @@
 ### Preprints
 
-<p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Yuxin Chen, Zite Xia, Jian Li, Kaiping Xue, <b>Zhonghui Li</b>, Lutong Chen, and Ruidong Li. QuIKS: Near-Zero Latency Key Supply with Adaptive Buffering for Resource-Efficient QKD Networks, submitted to 2025 IEEE Conference on Computer Communications.</p>
+<p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Yuxin Chen, Zite Xia, Jian Li, Kaiping Xue, <b>Zhonghui Li</b>, Lutong Chen, and Ruidong Li. QuIKS: Near-Zero Latency Key Supply with Adaptive Buffering for Resource-Efficient QKD Networks, submitted to IEEE Conference on Computer Communications (INFOCOM 2026).</p>
 
 <p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Wei Wu, <b>Zhonghui Li*</b>, and Yang Yang. BC-PQSMDP: Integrating ML-KEM and Blockchain towards Quantum-Resistant Medical Data Protection, submitted to IEEE Internet of Things Journal.</p>
 
