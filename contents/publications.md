@@ -1,6 +1,6 @@
 ### Preprints
 
-<p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Wei Wu, <b>Zhonghui Li</b>, and Yang Yang. BC-PQSMDP: Integrating ML-KEM and Blockchain towards Quantum-Resistant Medical Data Protection, submitted to IEEE Internet of Things Journal.</p>
+<p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Wei Wu, <b>Zhonghui Li*</b>, and Yang Yang. BC-PQSMDP: Integrating ML-KEM and Blockchain towards Quantum-Resistant Medical Data Protection, submitted to IEEE Internet of Things Journal.</p>
 
 <p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> <b>Zhonghui Li</b>, Jian Li, Kaiping Xue*, and Hyundong Shin*. HybridED: A Hybrid Entanglement Distribution Design for Efficient Quantum Teleportation in Quantum Communication Networks, submitted to IEEE Transactions on Communications.</p>
 
