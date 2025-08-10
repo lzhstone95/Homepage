@@ -20,7 +20,7 @@
   --bs-yellow: #ffc107;
 /* 让所有 class 为 shadow 的图片显示圆角 */
 img.shadow {
-  border-radius: 20px;
+  border-radius: 15px;
 }
   --bs-green: #198754;
   --bs-teal: #20c997;
