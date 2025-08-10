@@ -18,6 +18,10 @@
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
+/* 让所有 class 为 shadow 的图片显示圆角 */
+img.shadow {
+  border-radius: 20px;
+}
   --bs-green: #198754;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
