@@ -1,7 +1,8 @@
 ### Preprints
 
-<p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Yuxin Chen, Zite Xia, Jian Li, Kaiping Xue, <b>Zhonghui Li</b>, Lutong Chen, and Ruidong Li. An article on an adaptive buffer-based instant key provisioning scheme in QKD networks was submitted to IEEE Conference on Computer Communications (INFOCOM 2026).</p> 
+<p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> <b>Zhonghui Li</b>, Yang  Yang, Jian Li, Kaiping Xue. Tree-based Networking Design: Towards Future Large-scale Quantum Local Area Networks was submitted to IEEE Journal on Selected Areas in Communications.</p> 
 
+<p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Yuxin Chen, Zite Xia, Jian Li, Kaiping Xue, <b>Zhonghui Li</b>, Lutong Chen, and Ruidong Li. An article on an adaptive buffer-based instant key provisioning scheme in QKD networks was submitted to IEEE Conference on Computer Communications (INFOCOM 2026).</p> 
 
 <p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Wei Wu, <b>Zhonghui Li*</b>, and Yang Yang. BC-PQSMDP: Integrating ML-KEM and Blockchain towards Quantum-Resistant Medical Data Protection, submitted to IEEE Internet of Things Journal.</p>
 
