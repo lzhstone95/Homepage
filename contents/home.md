@@ -2,8 +2,6 @@
 
 <b>Email:</b> leestone95 (at) ahu.edu.cn &nbsp;&nbsp;&nbsp;&nbsp; <b>Office:</b> Room 507B, Science and Engineering Building, Qingyuan Campus, Anhui University.
 
-<hr style="border-top: 2px solid black;"> 
-
 ### Experience
 - Associate Researcher, School of Electronic and Information Engineering, Anhui University, 2025 - Now
 
