@@ -13,8 +13,7 @@
 <p style="text-align:justify"><span style="color: crimson;">[Major Revision]</span> Peng Zheng, Weixin Xie, <b>Zhonghui Li</b>, Jian Li, Kaiping Xue*, Guanjie Fanyuan, Shuang Wang, Wei Chen, Nenghai Yu, Guangcan Guo, and Zhengfu Han. Towards an adaptive multi-user quantum key distribution network, submitted to Physical Review A.</p>
 
 <p style="text-align:justify"><span style="color: crimson;">[Major Revision]</span> Zirui Xiao, Kaiping Xue*, <b>Zhonghui Li</b>, Jian Li, Lutong Chen, and Ruidong Li. Hybrid Error Correction Design for High-fidelity Entanglement Distribution in Quantum Communication Networks, submitted to IEEE Transactions on Communications.</p>
-                         
-<hr style="border-top: 3px solid black;">
+                        
 
 ### Published
 
