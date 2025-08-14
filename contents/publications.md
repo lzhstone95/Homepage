@@ -1,6 +1,6 @@
 ### Preprints
 
-<p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> <b>Zhonghui Li</b>, Yang  Yang, Jian Li, Kaiping Xue. Tree-based Networking Design: Towards Future Large-scale Quantum Local Area Networks was submitted to IEEE Journal on Selected Areas in Communications.</p> 
+<p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> <b>Zhonghui Li</b>, Yang  Yang, Jian Li, Kaiping Xue. Tree-based Networking Scheme: Towards Future Large-scale Quantum Local Area Networks with High Entanglement Connectivity was submitted to IEEE Journal on Selected Areas in Communications.</p> 
 
 <p style="text-align:justify"><span style="color: crimson;">[Under Review]</span> Yuxin Chen, Zite Xia, Jian Li, Kaiping Xue, <b>Zhonghui Li</b>, Lutong Chen, and Ruidong Li. QuIKS: Near-Zero Latency Key Supply with Adaptive Buffering for Resource-Efficient Quantum Key Distribution Networks was submitted to IEEE Conference on Computer Communications (INFOCOM 2026).</p> 
 
