@@ -17,7 +17,7 @@
 
 ### Published
 
-<p style="text-align:justify"><span style="color: crimson; background-color=rgba(82, 134, 158, 1)">[24]-[IEEE/ACM ToN]</span> Yuxin Chen, Jian Li*, <b>Zhonghui Li</b>, Kaiping Xue, Nenghai Yu, Qibin Sun, and Jun Lu. <a href="https://ieeexplore.ieee.org/document/11048413" style="color: rgba(74, 117, 192, 1);">An Asynchronous Key Relay Protocol Design for Large-scale Quantum Key Distribution Networks,</a> <span style="font-style: italic;">IEEE/ACM Transactions on Networking</span>, doi: 10.1109/TON.2025.3579932, 2025.</p>
+<p style="text-align:justify"><span style="color: crimson; background-color:rgba(82, 134, 158, 1)">[24]-[IEEE/ACM ToN]</span> Yuxin Chen, Jian Li*, <b>Zhonghui Li</b>, Kaiping Xue, Nenghai Yu, Qibin Sun, and Jun Lu. <a href="https://ieeexplore.ieee.org/document/11048413" style="color: rgba(74, 117, 192, 1);">An Asynchronous Key Relay Protocol Design for Large-scale Quantum Key Distribution Networks,</a> <span style="font-style: italic;">IEEE/ACM Transactions on Networking</span>, doi: 10.1109/TON.2025.3579932, 2025.</p>
 
 <p style="text-align:justify"><span style="color: crimson;">[23]-[IEEE TNSM]</span> Peng Zheng, Jian Li*, <b>Zhonghui Li</b>, Kaiping Xue*, Nenghai Yu, Ruidong Li, Qibin Sun, and Jun Lu. <a href="https://ieeexplore.ieee.org/abstract/document/11027590" style="color: rgba(74, 117, 192, 1);">An Efficient and Robust Resource Allocation Method for Quantum Key Distribution Networks,</a> <span style="font-style: italic;">IEEE Transactions on Network and Service Management</span>, doi: 10.1109/TNSM.2025.3577285，2025.</p>
 
