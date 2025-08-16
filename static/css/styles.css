@@ -18,6 +18,11 @@
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
+/* 设置所有按钮底色为 rgb(57, 115, 142) */
+button, .btn, .btn-primary {
+  background-color: rgb(57, 115, 142) !important;
+  border-color: rgb(57, 115, 142) !important;
+}
 /* 让所有 class 为 shadow 的图片显示圆角 */
 img.shadow {
   border-radius: 15px;
