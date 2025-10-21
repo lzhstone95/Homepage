@@ -1,4 +1,3 @@
-
 <p style="text-align:justify">[1] Jian Li, Peng Zheng, <b>Zhonghui Li*</b>, Yuqi Yang, Nenghai Yu, Qibin Sun, and Jun Lu. <a href="https://ieeexplore.ieee.org/document/11003481" style="color: rgba(74, 117, 192, 1);">Decentralized Key Management and Service in Quantum Key Distribution Networks: An Experimental Implementations,</a> <span style="font-style: italic;"> IEEE Journal on Selected Areas in Communications</span>, doi: 10.1109/JSAC.2025.3568040, 2025.</p>
 <p style="text-align:justify">[2] <b>Zhonghui Li</b>, Jian Li*, Kaiping Xue*, Lutong Chen, Nenghai Yu, Qibin Sun, and Jun Lu. <a href="https://ieeexplore.ieee.org/abstract/document/10720195" style="color: rgba(74, 117, 192, 1);">NarrowGap: Reducing Bottlenecks for End-to-End Entanglement Distribution in Quantum Networks,</a> <span style="font-style: italic;">IEEE Transactions on Networking</span>,  vol. 33, no. 1, pp. 162-177, 2025.</p>
 
