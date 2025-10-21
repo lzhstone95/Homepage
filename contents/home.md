@@ -20,5 +20,5 @@
 Quantum Networking, Distributed Quantum Computing, and Quantum Artificial Intelligence.
 
 ### Teaching
-- Quantum Information and Quantum Computing 
-- High-level Language Programming-C Language
+- <a href="https://faculty.ustc.edu.cn/kpxue" style="color: rgb(57, 115, 142);">Quantum Information and Quantum Computing</a> 
+- <a href="https://faculty.ustc.edu.cn/kpxue" style="color: rgb(57, 115, 142);">High-level Language Programming-C Language</a>
