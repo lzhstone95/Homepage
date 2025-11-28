@@ -1,4 +1,3 @@
-### Honors & Awards
 
 [1] Outstanding Paper Award, China Association for Science and Technology, Oct 2022.
 
