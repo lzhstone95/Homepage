@@ -10,6 +10,4 @@
                       
 <p style="text-align:justify"><b style="color: #a02711ff;">[5] Session Chair:</b> International Conference on Wireless Communications and Signal Processing (WC&SP), 2024.</p>
 
-### International Journal
-
-<p style="text-align:justify"><b style="color: #a02711ff;">Reviewer:</b> IEEE Network, IEEE Journal on Selected Areas in Communications, IEEE Transactions on Communications, China Communications, IEEE Transactions on Network and Service Management, IEEE/ACM Transactions on Networking, IEEE Computational Intelligence Magazine, Quantum Information Processing, IET Quantum Communications, etc.</p>
+<p style="text-align:justify"><b style="color: #a02711ff;">[6]Reviewer:</b> IEEE Network, IEEE JSAC, IEEE TCOM, China Commun, IEEE TNSM, IEEE ToN, npj Quantum. Inf, Quantum Inf. Process, IET Quantum Commun, Adv. Quantum Technol, etc.</p>
