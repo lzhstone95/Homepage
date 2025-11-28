@@ -2,7 +2,7 @@
 
 <p><b style="color: #a02711ff">Email: leestone95@ahu.edu.cn; lzhstone95@gmail.com</b></p>
 
-### ->Experience
+### Experience
 - Associate Researcher, School of Electronic and Information Engineering, Anhui University, 2025 - Now
 
 - Postdoctoral Researcher, School of Information Science and Technology, USTC, 2023 - 2025
@@ -12,5 +12,5 @@
 - B.E., School of Information and Software Engineering, University of Electronic Science and Technology of China, 2014 - 2018
 
 
-### ->Research Interests
+### Research Interests
 Quantum Networking, Distributed Quantum Computing, and Quantum Artificial Intelligence.
