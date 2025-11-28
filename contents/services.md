@@ -1,4 +1,3 @@
-### International Conference
 
 <p style="text-align:justify"><b style="color: #a02711ff;">[1] TPC Member:</b> IEEE Global Communications Conference (GLOBECOM), 2024, 2025</p>
 
