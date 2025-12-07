@@ -1,1 +1,3 @@
-- Our paper “Distributed Entanglement Routing Scheme with Fidelity Guarantee in Quantum Networks” was accepted by IEEE Transactions on Network Science and Engineering！🎉🎉🎉
+- Nov 2025, Our paper “Distributed Entanglement Routing Scheme with Fidelity Guarantee in Quantum Networks” was accepted by IEEE Transactions on Network Science and Engineering！🎉🎉🎉
+- Jul 2025, the students I mentored won second prize and a winning prize in the 4th CCF Quantum Computing Programming Challenge! 🎉🎉🎉
+- May 2025, I completed my postdoctoral research and joined the School of Electronic and Information Engineering at Anhui University.
