@@ -1,4 +1,4 @@
 - Nov 2025, Our paper “Distributed Entanglement Routing Scheme with Fidelity Guarantee in Quantum Networks” was accepted by IEEE Transactions on Network Science and Engineering！🎉🎉🎉
 - Sep 2025, Our academic monograph, "Quantum Information Networks: From Fundamental Principles to Innovative Applications," was supported by the 2024 National Science and Technology Academic Works Publishing Fund! 🎉🎉🎉
-- Jul 2025, the students I mentored won second prize and a winning prize in the 4th CCF Quantum Computing Programming Challenge! 🎉🎉🎉
+- Jul 2025, My students won second prize and a winning prize in the 4th CCF Quantum Computing Programming Challenge! 🎉🎉🎉
 - May 2025, I completed my postdoctoral research and joined the School of Electronic and Information Engineering at Anhui University.
