@@ -1,1 +1,1 @@
-- Our paper “istributed Entanglement Routing Scheme with Fidelity Guarantee in Quantum Networks” was accepted by IEEE Transactions on Network Science and Engineering！:tada: :tada: :tada:
+- Our paper “istributed Entanglement Routing Scheme with Fidelity Guarantee in Quantum Networks” was accepted by IEEE Transactions on Network Science and Engineering！🎉🎉🎉
