@@ -76,22 +76,6 @@
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        /* 让图表自适应容器宽度 */
-        #chartContainer {
-            max-width: 600px;
-            margin: 0;
-            background: #fff;
-            padding: 0;
-        }
-        canvas {
-            display: block;
-            width: 100% !important;
-            height: 200px !important;
-        }
-    </style>
-
 </head>
 
 <body id="page-top">
@@ -209,9 +193,6 @@
                 <h2 id="publications-subtitle"><b><i class="bi bi-check2-circle"></i></b>&nbsp;Selected Publications &nbsp;&nbsp; <a href="https://lzhstone95.github.io/QuI2C-Lab/assets/lzh-papers.html">( <u>see more...</u>)</a></h2>
             </header>
             <div class="main-body" id="publications-md"></div>
-            <div id="chartContainer">
-                <canvas id="myLineChart"></canvas>
-            </div>
         </div>
     </section>
     <!-- Publications  -->
@@ -239,52 +220,6 @@
         </div>
     </section>
     <!-- Services -->
-
-    <script>
-    // 设置横轴年份和纵轴引用数
-    const years = ['2022','2023','2024','2025'];
-    const citations = [15, 41, 85, 176];
-
-    const ctx = document.getElementById('myLineChart').getContext('2d');
-
-    new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: years,
-            datasets: [{
-                data: citations,
-                fill: false,
-                borderColor: 'rgb(75,192,192)',
-                backgroundColor: 'rgb(75,192,192,0.3)',
-                tension: 0.32, // 控制曲线的平滑程度
-                pointRadius: 5,
-                pointHoverRadius: 8
-            }]
-        },
-        options: {
-             layout: {
-                padding: 0  // 上右下左均为0
-            },
-            plugins: {
-                legend: { display: false },
-                tooltip: { enabled: true }
-            },
-            scales: {
-                x: {
-                    title: { display: true, text: '' },
-                    grid: { drawBorder: false, offset: false, zeroLineColor: 'transparent' },
-                    ticks: { padding: 0 }
-                },
-                y: {
-                    title: { display: true, text: 'citations' },
-                    beginAtZero: false,
-                    grid: { drawBorder: false },
-                    ticks: { padding: 0 } 
-                }
-            }
-        }
-    });
-</script>
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
