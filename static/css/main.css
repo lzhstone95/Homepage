@@ -87,6 +87,18 @@ section .main-body{
     background: rgba(0, 0, 0, 0.4);
 }
 
+.image-container {
+            display: flex; /* 使用flexbox布局 */
+            justify-content: center; /* 水平居中对齐 */
+            align-items: center; /* 垂直居中对齐 */
+        }
+.image-container img {
+            width: 300px; /* 设置宽度 */
+            height: 300px; /* 设置高度 */
+            object-fit: cover; /* 确保图片不变形且填满指定的宽高 */
+            margin: 10px; /* 设置图片间距 */
+        }
+
 
 #avatar {
     position: relative;
