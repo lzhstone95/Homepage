@@ -93,8 +93,8 @@ section .main-body{
             align-items: center; /* 垂直居中对齐 */
         }
 .image-container img {
-            width: 300px; /* 设置宽度 */
-            height: 300px; /* 设置高度 */
+            width: 30px; /* 设置宽度 */
+            height: 30px; /* 设置高度 */
             object-fit: cover; /* 确保图片不变形且填满指定的宽高 */
             margin: 10px; /* 设置图片间距 */
         }
