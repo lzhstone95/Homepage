@@ -81,11 +81,14 @@
         /* 让图表自适应容器宽度 */
         #chartContainer {
             max-width: 600px;
-            margin: 40px auto;
+            margin: 4px auto;
             background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 0;
+        }
+        canvas {
+            display: block;
+            width: 100% !important;
+            height: 300px !important;
         }
     </style>
 
@@ -187,11 +190,11 @@
                 <h2 id="awards-subtitle"><i class="bi bi-book-half"></i>&nbsp;Teaching</h2>
             </header>
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <div class="main-body" id="teaching-md"></div>      
                 </div>
-                <div class="col-md-3" id="chartContainer">
-                    <canvas id="myLineChart" style="max-width: 100%; height: 300px;"></canvas>
+                <div class="col-md-4" id="chartContainer">
+                    <canvas id="myLineChart"></canvas>
                 </div>
             </div>
         </div>
@@ -256,17 +259,24 @@
             }]
         },
         options: {
+             layout: {
+                padding: 0  // 上右下左均为0
+            },
             plugins: {
-                legend: { display: true, position: 'top' },
+                legend: { display: false },
                 tooltip: { enabled: true }
             },
             scales: {
                 x: {
-                    title: { display: true, text: '' }
+                    title: { display: true, text: '' },
+                    grid: { drawBorder: false, offset: false, zeroLineColor: 'transparent' },
+                    ticks: { padding: 0 }
                 },
                 y: {
                     title: { display: true, text: '' },
-                    beginAtZero: true 
+                    beginAtZero: false,
+                    grid: { drawBorder: false },
+                    ticks: { padding: 0 } 
                 }
             }
         }
