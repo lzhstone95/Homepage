@@ -94,7 +94,7 @@ section .main-body{
         }
 .image-container img {
             width: 30px; /* 设置宽度 */
-            height: 30px; /* 设置高度 */
+            max-height: 30px; /* 设置高度 */
             object-fit: cover; /* 确保图片不变形且填满指定的宽高 */
             margin: 10px; /* 设置图片间距 */
         }
