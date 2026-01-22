@@ -1,3 +1,4 @@
+- 2026-01, I became an Associate Professor at the School of Electronic and Information Engineering, Anhui University!🎉🎉🎉
 - 2025-12, Our paper "QuIKS: Near-Zero Latency Key Supply with Adaptive Buffering for Resource-Efficient Quantum Key Distribution Networks" was accepted by the 2026 IEEE International Conference on Computer Communications (INFOCOM)! 🎉🎉🎉
 - 2025-11, Our paper "Distributed Entanglement Routing Scheme with Fidelity Guarantee in Quantum Networks" was accepted by IEEE Transactions on Network Science and Engineering！🎉🎉🎉
 - 2025-10，Our project received support from the Ministry of Industry and Information Technology! 🎉🎉🎉
