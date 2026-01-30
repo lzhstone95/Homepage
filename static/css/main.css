@@ -56,6 +56,8 @@ section .main-body{
 
 .bg-gradient-primary-to-secondary-light {
     background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+
 }
 
 .bg-gradient-primary-to-secondary-gray {
