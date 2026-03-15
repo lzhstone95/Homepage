@@ -8,5 +8,3 @@
 📍 Qinyuan Campus of Anhui University, No. 111 Jiulong Road, Economic and Technological Development Zone, Hefei City.
 
 📧 leestone95(at)ahu.edu.cn, lzhstone95(at)gmail.com; &nbsp;&nbsp; 🏡 Room B507, Science and Technology Building.
-
-
