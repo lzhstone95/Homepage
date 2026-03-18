@@ -1,7 +1,7 @@
-## Advanced Language Programming
+### Advanced Language Programming
 - **Course Type:** Major Compulsory Course  
 - **Teaching Grade:** First-year Undergraduate  
 
-## Quantum Communication Principles
+### Principles of Quantum Communication
 - **Course Type:** Major Elective Course  
 - **Teaching Grade:** Third-year Undergraduate  
