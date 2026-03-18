@@ -1,4 +1,7 @@
-| Course Name                   | Course Type          | Target Grade                          |
-|------------------------------|----------------------|-------------------------------------|
-| Advanced Programming Languages | Required Core Course  | Freshman Year (1st Year Undergraduate) |
-| Principles of Quantum Communication | Elective Course     | Junior Year (3rd Year Undergraduate)   |
+## Advanced Language Programming
+- **Course Type:** Major Compulsory Course  
+- **Teaching Grade:** First-year Undergraduate  
+
+## Quantum Communication Principles
+- **Course Type:** Major Elective Course  
+- **Teaching Grade:** Third-year Undergraduate  
