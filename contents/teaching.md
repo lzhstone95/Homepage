@@ -1,4 +1,4 @@
-__Advanced Language Programming__
+<strong>Advanced Language Programming</stong>__
 - **Course Type:** Major Compulsory Course  
 - **Teaching Grade:** First-year Undergraduate  
 
