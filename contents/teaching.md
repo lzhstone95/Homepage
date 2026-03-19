@@ -5,3 +5,7 @@ __Advanced Language Programming__
 __Principles of Quantum Communication__
 - **Course Type:** Major Elective Course  
 - **Teaching Grade:** Third-year Undergraduate  
+
+__Introduction to Quantum Computing__
+- **Course Type:** Major Elective Course  
+- **Teaching Grade:** Third-year Undergraduate 
