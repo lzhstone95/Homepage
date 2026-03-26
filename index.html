@@ -1,253 +1,906 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="senli1073" />
-    <title id="title"></title>
+    <meta name="description" content="Zhonghui Li - Academic Homepage" />
+    <title>Zhonghui Li | 李忠辉</title>
 
-    <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
 
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        /* ========== CSS Variables ========== */
+        :root {
+            --primary: #1a6b8a;
+            --primary-dark: #124f68;
+            --primary-light: #e8f4f8;
+            --accent: #e07b39;
+            --accent-light: #fdf0e8;
+            --text-dark: #1c2b36;
+            --text-mid: #3a5568;
+            --text-light: #6b8a9c;
+            --bg-page: #f5f8fa;
+            --bg-white: #ffffff;
+            --border-light: #dde8ee;
+            --shadow-card: 0 2px 16px rgba(26,107,138,.10), 0 1px 4px rgba(0,0,0,.05);
+            --shadow-hover: 0 6px 28px rgba(26,107,138,.18), 0 2px 8px rgba(0,0,0,.08);
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
 
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
-        rel="stylesheet" />
+        /* ========== Reset & Base ========== */
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-page);
+            color: var(--text-dark);
+            font-size: 15px;
+            line-height: 1.7;
+        }
 
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
-    <link type="text/css" href="static/css/main.css" rel="stylesheet" />
+        /* ========== Navigation ========== */
+        #mainNav {
+            background: rgba(255,255,255,0.96);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-light);
+            padding: 0;
+            transition: box-shadow 0.3s;
+        }
+        #mainNav.scrolled {
+            box-shadow: 0 2px 20px rgba(26,107,138,.12);
+        }
+        #mainNav .container-fluid { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+        .navbar-brand {
+            font-family: 'Crimson Pro', serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--primary) !important;
+            padding: 1rem 0;
+            letter-spacing: 0.02em;
+        }
+        .nav-link {
+            color: var(--text-mid) !important;
+            font-size: 0.875rem;
+            font-weight: 500;
+            padding: 0.5rem 0.85rem !important;
+            border-radius: 6px;
+            transition: color 0.2s, background 0.2s;
+            letter-spacing: 0.03em;
+        }
+        .nav-link:hover, .nav-link.active {
+            color: var(--primary) !important;
+            background: var(--primary-light);
+        }
 
-    <!-- Bootstrap core JS-->
-    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
+        /* ========== Hero Banner ========== */
+        .hero-banner {
+            position: relative;
+            height: 340px;
+            background: url('https://lzhstone95.github.io/Homepage/static/assets/img/ahu.jpg') center/cover no-repeat;
+            display: flex;
+            align-items: flex-end;
+            overflow: hidden;
+        }
+        .hero-banner::before {
+            content: '';
+            position: absolute; inset: 0;
+            background: linear-gradient(
+                to bottom,
+                rgba(10,30,45,0.25) 0%,
+                rgba(10,30,45,0.65) 100%
+            );
+        }
+        .hero-banner .hero-text {
+            position: relative;
+            z-index: 2;
+            padding: 2.5rem 2.5rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .hero-banner h1 {
+            font-family: 'Crimson Pro', serif;
+            font-size: 2.6rem;
+            font-weight: 600;
+            color: #fff;
+            margin: 0;
+            letter-spacing: 0.02em;
+            text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+        }
+        .hero-banner .hero-subtitle {
+            color: rgba(255,255,255,0.85);
+            font-size: 1rem;
+            margin-top: 0.25rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
 
-    <!-- For Compatability -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    
-    <!-- Markdown -->
-    <script type="text/javascript" src="static/js/marked.min.js"></script>
+        /* ========== Avatar ========== */
+        .avatar-wrap {
+            display: flex;
+            justify-content: flex-end;
+            max-width: 1100px;
+            margin: -60px auto 0;
+            padding: 0 2.5rem;
+            position: relative;
+            z-index: 10;
+        }
+        .avatar-wrap img {
+            width: 130px;
+            height: 175px;
+            object-fit: cover;
+            border-radius: var(--radius-sm);
+            border: 4px solid #fff;
+            box-shadow: 0 8px 28px rgba(0,0,0,0.20);
+            transition: transform 0.3s;
+        }
+        .avatar-wrap img:hover { transform: scale(1.03); }
 
-    <!-- Mathematics -->
-    <script>
-        // See https://docs.mathjax.org/en/latest/index.html for more details.
-        MathJax = {
-            tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [             // start/end delimiter pairs for display math
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                // baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
-                // (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
-                formatError:               // function called when TeX syntax errors occur
-                    (jax, err) => jax.formatError(err)
-            }
-        };
-    </script>
-    <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    
-    <!-- Core JS-->
-    <script type="text/javascript" src="static/js/scripts.js"></script>
-    <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
+        /* ========== Page Layout ========== */
+        .page-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem;
+        }
 
+        /* ========== Section ========== */
+        .content-section {
+            margin-top: 2.5rem;
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: 1.25rem;
+        }
+        .section-header .section-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            background: var(--primary-light);
+            border-radius: 8px;
+            color: var(--primary);
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+        .section-title {
+            font-family: 'Crimson Pro', serif;
+            font-size: 1.65rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin: 0;
+            letter-spacing: 0.01em;
+        }
+        .section-extra {
+            margin-left: auto;
+            font-size: 0.85rem;
+        }
+        .section-extra a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.3rem 0.75rem;
+            border: 1.5px solid var(--primary);
+            border-radius: 20px;
+            transition: all 0.2s;
+        }
+        .section-extra a:hover {
+            background: var(--primary);
+            color: #fff;
+        }
+
+        /* ========== Card ========== */
+        .card-section {
+            background: var(--bg-white);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-card);
+            padding: 1.75rem 2rem;
+            transition: box-shadow 0.3s;
+        }
+        .card-section:hover {
+            box-shadow: var(--shadow-hover);
+        }
+
+        /* ========== Bio Section ========== */
+        #home .bio-text {
+            text-align: justify;
+            color: var(--text-dark);
+            line-height: 1.8;
+            font-size: 0.965rem;
+        }
+        #home .bio-text a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px dotted var(--primary);
+        }
+        #home .bio-text a:hover { border-bottom-style: solid; }
+
+        .bio-meta {
+            margin-top: 1.25rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid var(--border-light);
+        }
+        .bio-timeline {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1rem;
+        }
+        .bio-timeline li {
+            display: flex;
+            gap: 0.75rem;
+            align-items: flex-start;
+            padding: 0.45rem 0;
+            font-size: 0.9rem;
+            color: var(--text-mid);
+            border-bottom: 1px dashed #eee;
+        }
+        .bio-timeline li:last-child { border-bottom: none; }
+        .bio-timeline li::before {
+            content: '';
+            width: 7px;
+            height: 7px;
+            background: var(--primary);
+            border-radius: 50%;
+            margin-top: 0.55rem;
+            flex-shrink: 0;
+        }
+        .bio-contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            font-size: 0.88rem;
+            color: var(--text-mid);
+        }
+        .bio-contact span {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        .bio-contact i { color: var(--primary); font-size: 1rem; }
+
+        /* ========== News ========== */
+        .news-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .news-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.9rem;
+            padding: 0.85rem 0;
+            border-bottom: 1px solid var(--border-light);
+            font-size: 0.92rem;
+            color: var(--text-mid);
+            line-height: 1.6;
+        }
+        .news-list li:last-child { border-bottom: none; padding-bottom: 0; }
+        .news-list li:first-child { padding-top: 0; }
+        .news-date {
+            flex-shrink: 0;
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--primary);
+            background: var(--primary-light);
+            padding: 0.2rem 0.55rem;
+            border-radius: 4px;
+            margin-top: 0.1rem;
+            white-space: nowrap;
+            letter-spacing: 0.02em;
+        }
+        .news-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            font-size: 0.75rem;
+            color: var(--accent);
+            background: var(--accent-light);
+            padding: 0.15rem 0.5rem;
+            border-radius: 4px;
+            font-weight: 600;
+            margin-left: 0.25rem;
+            vertical-align: middle;
+        }
+
+        /* ========== Members ========== */
+        .members-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 1.5rem;
+        }
+        .member-card {
+            background: var(--bg-white);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius);
+            padding: 1.25rem 1rem 1rem;
+            text-align: center;
+            box-shadow: 0 1px 6px rgba(0,0,0,.06);
+            transition: transform 0.25s, box-shadow 0.25s;
+        }
+        .member-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-hover);
+        }
+        .member-card img {
+            width: 90px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 0.75rem;
+            border: 2px solid var(--border-light);
+        }
+        .member-name {
+            font-weight: 700;
+            font-size: 0.92rem;
+            color: #a51e22;
+            margin-bottom: 0.2rem;
+        }
+        .member-degree {
+            font-size: 0.78rem;
+            color: var(--text-light);
+            margin-bottom: 0.15rem;
+        }
+        .member-topic {
+            font-size: 0.76rem;
+            color: var(--primary);
+            font-weight: 500;
+            background: var(--primary-light);
+            border-radius: 4px;
+            padding: 0.15rem 0.4rem;
+            display: inline-block;
+            margin-top: 0.2rem;
+        }
+
+        /* ========== Teaching ========== */
+        .teaching-list { list-style: none; padding: 0; margin: 0; }
+        .teaching-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+        .teaching-item:last-child { border-bottom: none; padding-bottom: 0; }
+        .teaching-item:first-child { padding-top: 0; }
+        .teaching-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, var(--primary-light), #d0eaf5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            color: var(--primary);
+            flex-shrink: 0;
+        }
+        .teaching-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: var(--text-dark);
+            margin-bottom: 0.2rem;
+        }
+        .teaching-meta {
+            font-size: 0.82rem;
+            color: var(--text-light);
+        }
+        .teaching-badge {
+            display: inline-block;
+            font-size: 0.73rem;
+            padding: 0.1rem 0.5rem;
+            border-radius: 4px;
+            font-weight: 500;
+            margin-right: 0.4rem;
+        }
+        .badge-required {
+            background: #fff3e0;
+            color: #c67c00;
+        }
+        .badge-elective {
+            background: #e8f4f8;
+            color: var(--primary);
+        }
+
+        /* ========== Publications ========== */
+        .pub-list { list-style: none; padding: 0; margin: 0; }
+        .pub-item {
+            display: flex;
+            gap: 1rem;
+            padding: 1.1rem 0;
+            border-bottom: 1px solid var(--border-light);
+            align-items: flex-start;
+        }
+        .pub-item:last-child { border-bottom: none; padding-bottom: 0; }
+        .pub-item:first-child { padding-top: 0; }
+        .pub-num {
+            flex-shrink: 0;
+            width: 28px;
+            height: 28px;
+            background: var(--primary);
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-top: 0.15rem;
+        }
+        .pub-body { flex: 1; line-height: 1.65; }
+        .pub-title {
+            font-weight: 600;
+            color: var(--primary);
+            font-size: 0.92rem;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .pub-title:hover { color: var(--accent); text-decoration: underline; }
+        .pub-authors { font-size: 0.87rem; color: var(--text-mid); margin-top: 0.2rem; }
+        .pub-venue { font-size: 0.84rem; color: var(--text-light); font-style: italic; margin-top: 0.15rem; }
+        .pub-year {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--primary);
+            background: var(--primary-light);
+            padding: 0.1rem 0.45rem;
+            border-radius: 4px;
+            margin-left: 0.4rem;
+            vertical-align: middle;
+        }
+
+        /* ========== Honors ========== */
+        .honors-list { list-style: none; padding: 0; margin: 0; }
+        .honor-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 0.85rem 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+        .honor-item:last-child { border-bottom: none; padding-bottom: 0; }
+        .honor-item:first-child { padding-top: 0; }
+        .honor-star {
+            color: #e8a217;
+            font-size: 1.2rem;
+            margin-top: 0.05rem;
+            flex-shrink: 0;
+        }
+        .honor-text { font-size: 0.92rem; color: var(--text-mid); line-height: 1.6; }
+
+        /* ========== Services ========== */
+        .service-list { list-style: none; padding: 0; margin: 0; }
+        .service-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border-light);
+            font-size: 0.92rem;
+            color: var(--text-mid);
+            line-height: 1.6;
+        }
+        .service-item:last-child { border-bottom: none; padding-bottom: 0; }
+        .service-item:first-child { padding-top: 0; }
+        .service-item::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background: var(--primary);
+            border-radius: 50%;
+            flex-shrink: 0;
+            margin-top: 0.6rem;
+        }
+
+        /* ========== Footer ========== */
+        .site-footer {
+            background: var(--primary-dark);
+            color: rgba(255,255,255,0.7);
+            text-align: center;
+            padding: 2rem 1rem;
+            font-size: 0.84rem;
+            margin-top: 3rem;
+        }
+        .site-footer a { color: rgba(255,255,255,0.85); }
+
+        /* ========== Divider ========== */
+        .section-divider {
+            height: 3px;
+            width: 48px;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            border-radius: 3px;
+            margin: 0.2rem 0 1.1rem;
+        }
+
+        /* ========== Responsive ========== */
+        @media (max-width: 768px) {
+            .hero-banner { height: 220px; }
+            .hero-banner h1 { font-size: 1.8rem; }
+            .avatar-wrap { margin-top: -45px; padding: 0 1.5rem; }
+            .avatar-wrap img { width: 100px; height: 135px; }
+            .page-container { padding: 0 1.2rem 3rem; }
+            .card-section { padding: 1.25rem 1.25rem; }
+            .members-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 1rem; }
+        }
+        @media (max-width: 480px) {
+            .hero-banner { height: 180px; }
+            .hero-banner h1 { font-size: 1.45rem; }
+        }
+    </style>
 </head>
-
 <body id="page-top">
-    <!-- Navigation-->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <a class="navbar-brand fw-bold" href="https://lzhstone95.github.io/QuI2C-Lab/ZhonghuiLi.html">中文</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+
+    <!-- ========== Navigation ========== -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://lzhstone95.github.io/QuI2C-Lab/ZhonghuiLi.html">中文版</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
+                <i class="bi bi-list fs-5"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#news">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#members">Members</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#teaching">Teaching</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">Publications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#honors">Honors</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#services">Services</a>
-                    </li>
+                <ul class="navbar-nav ms-auto gap-1 my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#members">Members</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#teaching">Teaching</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#honors">Honors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/ahu.jpg');">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt">Anhui University</h2>
-            </div>
-        </div>
-    </section>
-    <!-- Top Section -->
-
-    <!-- Photo -->
-    <div class="container px-5" style="margin-bottom: 40px;">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/lzh.jpg">
+    <!-- ========== Hero ========== -->
+    <div class="hero-banner" style="margin-top: 56px;">
+        <div class="hero-text">
+            <h1>Zhonghui Li &nbsp;<span style="opacity:.7;font-size:1.9rem;">|&nbsp; 李忠辉</span></h1>
+            <div class="hero-subtitle">Associate Professor · Anhui University</div>
         </div>
     </div>
-    <!-- Photo -->
-    
-    <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
-        <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle"></h2>
-                <!-- <span class="bi bi-list"></span> -->
-            </header>
-            <div class="main-body" style="border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: #fff; padding:25px;"id="home-md"></div>
-        </div>
-    </section>
-    <!-- Home -->
 
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="news">
-        <div class="container px-5">
-            <header>
-                <h2 id="news-subtitle"><i class="bi bi-broadcast"></i>&nbsp;News</h2>
-            </header>
-            <div class="main-body" style="border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: #fff; padding:25px;" id="news-md"></div>
-        </div>
-    </section>
+    <!-- ========== Avatar ========== -->
+    <div class="avatar-wrap">
+        <img src="https://lzhstone95.github.io/Homepage/static/assets/img/lzh.jpg" alt="Zhonghui Li" />
+    </div>
 
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="members">
-        <div class="container px-5">
-            <header>
-                <h2 id="members-subtitle"><i class="bi bi-person-circle"></i>&nbsp;Members</h2>
-            </header>
-            <div class="main-body" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 2rem; margin-top: 2rem; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: #fff; padding:25px;">
-      
-                <div style="text-align: center; font-size: 18px;" >
-                    <img src="static/assets/img/Lizhineng.jpg" style="width:120px; height:165px; object-fit: cover; margin-bottom: 0.75rem; margin-top: 1.05rem;">
-                    <div style="color: rgb(170, 12, 12);"><strong>Zhineng Li</strong></div>
-                    <div>Master</div>
-                    <div>Quantum Computing</div>
-                </div>
+    <!-- ========== Main Content ========== -->
+    <div class="page-container">
 
-                <div style="text-align: center; font-size: 18px;">
-                    <img src="static/assets/img/Xieqi.jpeg" style="width:120px; height:165px; object-fit: cover; margin-bottom: 0.75rem; margin-top: 1.05rem;">
-                    <div style="color: rgb(170, 12, 12);"><strong>Qi Xie</strong></div>
-                    <div>Master</div>
-                    <div>Quantum Networking</div>
-                </div>
-
-                <div style="text-align: center; font-size: 18px;">
-                    <img src="static/assets/img/LuLu.jpeg" style="width:120px; height:165px; object-fit: cover; margin-bottom: 0.75rem; margin-top: 1.05rem;">
-                    <div style="color: rgb(170, 12, 12);"><strong>Lu Lu</strong></div>
-                    <div>Master</div>
-                    <div>Quantum Federated Learning</div>
-                </div>
-                
-                <div style="text-align: center; font-size: 18px;">
-                    <img src="static/assets/img/Chenyifei.png" style="width:120px; height:165px; object-fit: cover; margin-bottom: 0.75rem; margin-top: 1.05rem;">
-                    <div style="color: rgb(170, 12, 12);"><strong>Yifei Chen</strong></div>
-                    <div>Master</div>
-                    <div>Quantum Machine Learning</div>
-                </div>                
-                
+        <!-- Home / Bio -->
+        <section class="content-section" id="home">
+            <div class="section-header">
+                <span class="section-icon"><i class="bi bi-person-fill"></i></span>
+                <h2 class="section-title">About</h2>
             </div>
-        </div>
-    </section>
+            <div class="section-divider"></div>
+            <div class="card-section">
+                <p class="bio-text">
+                    I am currently an <strong>Associate Professor</strong> at School of Electronic and Information Engineering, Anhui University.
+                    I received my Ph.D. degree from the School of Cyber Science and Technology, University of Science and Technology of China (USTC) in 2023,
+                    supervised by <a href="https://faculty.ustc.edu.cn/kpxue" style="color:var(--primary)">Prof. Kaiping Xue</a>.
+                    My current research interests include <strong>quantum communication and networks</strong>, <strong>quantum computing</strong>,
+                    <strong>quantum artificial intelligence</strong>, and <strong>AI security</strong>.
+                    So far, I have published more than 20 papers in international journals or conferences, such as
+                    <em>IEEE Communications Surveys &amp; Tutorials</em>, <em>IEEE/ACM Transactions on Networking (ToN)</em>,
+                    <em>IEEE Transactions on Communications (TCOM)</em>, <em>IEEE TNSM</em>, <em>IEEE Network</em>, <em>China Communications</em>.
+                    In addition, I have been invited many times to be a reviewer for international journals, such as
+                    <em>npj Quantum Information</em>, <em>IEEE/ACM ToN</em>, <em>IEEE TCOM</em>, <em>IEEE Network</em>,
+                    <em>IEEE TNSM</em>, <em>IEEE TNSE</em>, <em>China Communications</em>, <em>Quantum Machine Intelligence</em>, and
+                    <em>Quantum Information Processing</em>.
+                </p>
 
-    <!-- teaching -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="teaching">
-        <div class="container px-5">
-            <header>
-                <h2 id="teaching-subtitle"><b><i class="bi bi-layers"></i></b>&nbsp;Teaching</h2>
-            </header>
-            <div class="main-body" style="border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: #fff; padding:25px;"  id="teaching-md"></div>
-        </div>
-    </section>
-    <!-- teaching  -->
-
-
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="publications">
-        <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><b><i class="bi bi-check2-circle"></i></b>&nbsp;Selected Publications &nbsp;&nbsp; <a href="https://lzhstone95.github.io/Homepage/publications.html">( <u>see more...</u>)</a></h2>
-            </header>
-            <div class="main-body" style="text-align: center; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: #fff; padding:25px;"  id="publications-md"></div>
-        </div>
-    </section>
-    <!-- Publications  -->
-    
-    <!-- honors -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="honors">
-        <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award"></i>&nbsp;Honors & Awards</h2>
-            </header>
-            <div class="main-body" style="border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: #fff; padding:25px;" id="honors-md"></div>
-        </div>
-    </section>
-    <!-- honors -->
-
-    <!-- Services -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="services">
-        <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-gem"></i>&nbsp;Service</h2>
-            </header>
-            <div class="main-body" style="border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: #fff; padding:25px;" id="services-md"></div>
-        </div>
-    </section>
-    <!-- Services -->
-
-    <!-- Footer-->
-    <footer class="bg-bottom text-center py-5">
-        <div class="container px-5">
-            <div class="text-white-50">
-                <div id="copyright-text" class="mb-2"></div>
+                <div class="bio-meta">
+                    <ul class="bio-timeline">
+                        <li>Associate Professor, School of Electronic and Information Engineering, Anhui University, 2026 – Now</li>
+                        <li>Postdoctoral Researcher, School of Information Science and Technology, USTC, 2023 – 2025</li>
+                        <li>Ph.D., School of Cyber Science and Technology, USTC, 2018 – 2023</li>
+                        <li>B.E., School of Information and Software Engineering, UESTC, 2014 – 2018</li>
+                    </ul>
+                    <div class="bio-contact">
+                        <span><i class="bi bi-geo-alt-fill"></i> Qinyuan Campus of Anhui University, No. 111 Jiulong Road, Hefei</span>
+                        <span><i class="bi bi-envelope-fill"></i> leestone95(at)ahu.edu.cn &nbsp;|&nbsp; lzhstone95(at)gmail.com</span>
+                        <span><i class="bi bi-building"></i> Room B507, Science and Technology Building</span>
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <!-- News -->
+        <section class="content-section" id="news">
+            <div class="section-header">
+                <span class="section-icon"><i class="bi bi-broadcast"></i></span>
+                <h2 class="section-title">News</h2>
+            </div>
+            <div class="section-divider"></div>
+            <div class="card-section">
+                <ul class="news-list">
+                    <li>
+                        <span class="news-date">2026-01</span>
+                        <span>I became an <strong>Associate Professor</strong> at the School of Electronic and Information Engineering, Anhui University!
+                            <span class="news-tag">🎉 New Position</span></span>
+                    </li>
+                    <li>
+                        <span class="news-date">2025-12</span>
+                        <span>Our paper <em>"QuIKS: Near-Zero Latency Key Supply with Adaptive Buffering for Resource-Efficient Quantum Key Distribution Networks"</em>
+                            was accepted by <strong>IEEE INFOCOM 2026</strong>! <span class="news-tag">🎉 Paper</span></span>
+                    </li>
+                    <li>
+                        <span class="news-date">2025-11</span>
+                        <span>Our paper <em>"Distributed Entanglement Routing Scheme with Fidelity Guarantee in Quantum Networks"</em>
+                            was accepted by <strong>IEEE Transactions on Network Science and Engineering</strong>! <span class="news-tag">🎉 Paper</span></span>
+                    </li>
+                    <li>
+                        <span class="news-date">2025-10</span>
+                        <span>Our project received support from the <strong>Ministry of Industry and Information Technology</strong>! <span class="news-tag">🎉 Funding</span></span>
+                    </li>
+                    <li>
+                        <span class="news-date">2025-09</span>
+                        <span>Our academic work, <em>"Quantum Information Networks: From Fundamental Principles to Innovative Applications"</em>,
+                            received support from the <strong>National Science and Technology Academic Works Publishing Fund</strong>! <span class="news-tag">🎉 Book</span></span>
+                    </li>
+                    <li>
+                        <span class="news-date">2025-07</span>
+                        <span>My students won <strong>Second Prize</strong> and a <strong>Winning Prize</strong> in the 4th CCF Quantum Computing Programming Challenge! <span class="news-tag">🎉 Award</span></span>
+                    </li>
+                    <li>
+                        <span class="news-date">2025-05</span>
+                        <span>I completed my postdoctoral research and joined the School of Electronic and Information Engineering at Anhui University.</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Members -->
+        <section class="content-section" id="members">
+            <div class="section-header">
+                <span class="section-icon"><i class="bi bi-people-fill"></i></span>
+                <h2 class="section-title">Members</h2>
+            </div>
+            <div class="section-divider"></div>
+            <div class="card-section">
+                <div class="members-grid">
+                    <div class="member-card">
+                        <img src="https://lzhstone95.github.io/Homepage/static/assets/img/Lizhineng.jpg" alt="Zhineng Li" />
+                        <div class="member-name">Zhineng Li</div>
+                        <div class="member-degree">Master</div>
+                        <div class="member-topic">Quantum Computing</div>
+                    </div>
+                    <div class="member-card">
+                        <img src="https://lzhstone95.github.io/Homepage/static/assets/img/Xieqi.jpeg" alt="Qi Xie" />
+                        <div class="member-name">Qi Xie</div>
+                        <div class="member-degree">Master</div>
+                        <div class="member-topic">Quantum Networking</div>
+                    </div>
+                    <div class="member-card">
+                        <img src="https://lzhstone95.github.io/Homepage/static/assets/img/LuLu.jpeg" alt="Lu Lu" />
+                        <div class="member-name">Lu Lu</div>
+                        <div class="member-degree">Master</div>
+                        <div class="member-topic">Quantum Fed. Learning</div>
+                    </div>
+                    <div class="member-card">
+                        <img src="https://lzhstone95.github.io/Homepage/static/assets/img/Chenyifei.png" alt="Yifei Chen" />
+                        <div class="member-name">Yifei Chen</div>
+                        <div class="member-degree">Master</div>
+                        <div class="member-topic">Quantum ML</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Teaching -->
+        <section class="content-section" id="teaching">
+            <div class="section-header">
+                <span class="section-icon"><i class="bi bi-mortarboard-fill"></i></span>
+                <h2 class="section-title">Teaching</h2>
+            </div>
+            <div class="section-divider"></div>
+            <div class="card-section">
+                <ul class="teaching-list">
+                    <li class="teaching-item">
+                        <div class="teaching-icon"><i class="bi bi-code-slash"></i></div>
+                        <div>
+                            <div class="teaching-name">Advanced Language Programming</div>
+                            <div class="teaching-meta">
+                                <span class="teaching-badge badge-required">Required</span>
+                                First-year Undergraduate
+                            </div>
+                        </div>
+                    </li>
+                    <li class="teaching-item">
+                        <div class="teaching-icon"><i class="bi bi-diagram-3-fill"></i></div>
+                        <div>
+                            <div class="teaching-name">Principles of Quantum Communication</div>
+                            <div class="teaching-meta">
+                                <span class="teaching-badge badge-elective">Elective</span>
+                                Third-year Undergraduate
+                            </div>
+                        </div>
+                    </li>
+                    <li class="teaching-item">
+                        <div class="teaching-icon"><i class="bi bi-cpu-fill"></i></div>
+                        <div>
+                            <div class="teaching-name">Introduction to Quantum Computing</div>
+                            <div class="teaching-meta">
+                                <span class="teaching-badge badge-elective">Elective</span>
+                                Third-year Undergraduate
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Publications -->
+        <section class="content-section" id="publications">
+            <div class="section-header">
+                <span class="section-icon"><i class="bi bi-journal-bookmark-fill"></i></span>
+                <h2 class="section-title">Selected Publications</h2>
+                <div class="section-extra">
+                    <a href="https://lzhstone95.github.io/Homepage/publications.html" target="_blank">
+                        <i class="bi bi-box-arrow-up-right"></i> See More
+                    </a>
+                </div>
+            </div>
+            <div class="section-divider"></div>
+            <div class="card-section">
+                <ul class="pub-list">
+                    <li class="pub-item">
+                        <div class="pub-num">1</div>
+                        <div class="pub-body">
+                            <a class="pub-title" href="https://ieeexplore.ieee.org/abstract/document/10720195" target="_blank">
+                                NarrowGap: Reducing Bottlenecks for End-to-End Entanglement Distribution in Quantum Networks
+                            </a>
+                            <div class="pub-authors"><strong>Zhonghui Li</strong>, Jian Li*, Kaiping Xue*, Lutong Chen, Nenghai Yu, Qibin Sun, and Jun Lu.</div>
+                            <div class="pub-venue"><em>IEEE Transactions on Networking</em>, vol. 33, no. 1, pp. 162–177, <span class="pub-year">2025</span></div>
+                        </div>
+                    </li>
+                    <li class="pub-item">
+                        <div class="pub-num">2</div>
+                        <div class="pub-body">
+                            <a class="pub-title" href="https://ieeexplore.ieee.org/abstract/document/10185987" target="_blank">
+                                Efficient Remote Entanglement Distribution in Quantum Networks: A Segment-based Method
+                            </a>
+                            <div class="pub-authors"><strong>Zhonghui Li</strong>, Kaiping Xue*, Jian Li, Nenghai Yu, David S. L. Wei, and Ruidong Li.</div>
+                            <div class="pub-venue"><em>IEEE Transactions on Network and Service Management</em>, vol. 21, no. 1, pp. 249–265, <span class="pub-year">2024</span></div>
+                        </div>
+                    </li>
+                    <li class="pub-item">
+                        <div class="pub-num">3</div>
+                        <div class="pub-body">
+                            <a class="pub-title" href="https://ieeexplore.ieee.org/abstract/document/10177948" target="_blank">
+                                Entanglement-Assisted Quantum Networks: Mechanics, Enabling Technologies, Challenges, and Research Directions
+                            </a>
+                            <div class="pub-authors"><strong>Zhonghui Li</strong>, Kaiping Xue*, Jian Li, Lutong Chen, Ruidong Li, Zhaoying Wang, Nenghai Yu, David S. L. Wei, Qibin Sun, and Jun Lu.</div>
+                            <div class="pub-venue"><em>IEEE Communications Surveys and Tutorials</em>, vol. 25, no. 4, pp. 2133–2189, <span class="pub-year">2023</span></div>
+                        </div>
+                    </li>
+                    <li class="pub-item">
+                        <div class="pub-num">4</div>
+                        <div class="pub-body">
+                            <a class="pub-title" href="https://ieeexplore.ieee.org/abstract/document/9839638" target="_blank">
+                                Connection-oriented and Connectionless Remote Entanglement Distribution Strategies in Quantum Networks
+                            </a>
+                            <div class="pub-authors"><strong>Zhonghui Li</strong>, Kaiping Xue*, Jian Li, Nenghai Yu, David S. L. Wei, and Ruidong Li.</div>
+                            <div class="pub-venue"><em>IEEE Network</em>, vol. 36, no. 6, pp. 150–156, <span class="pub-year">2022</span></div>
+                        </div>
+                    </li>
+                    <li class="pub-item">
+                        <div class="pub-num">5</div>
+                        <div class="pub-body">
+                            <a class="pub-title" href="https://ieeexplore.ieee.org/document/11003481" target="_blank">
+                                Decentralized Key Management and Service in Quantum Key Distribution Networks: An Experimental Implementation
+                            </a>
+                            <div class="pub-authors">Jian Li, Peng Zheng, <strong>Zhonghui Li*</strong>, Yuqi Yang, Nenghai Yu, Qibin Sun, and Jun Lu.</div>
+                            <div class="pub-venue"><em>IEEE Journal on Selected Areas in Communications</em>, vol. 43, no. 8, pp. 2782–2797, <span class="pub-year">2025</span></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Honors -->
+        <section class="content-section" id="honors">
+            <div class="section-header">
+                <span class="section-icon"><i class="bi bi-trophy-fill"></i></span>
+                <h2 class="section-title">Honors &amp; Awards</h2>
+            </div>
+            <div class="section-divider"></div>
+            <div class="card-section">
+                <ul class="honors-list">
+                    <li class="honor-item">
+                        <i class="bi bi-star-fill honor-star"></i>
+                        <div class="honor-text">Outstanding Paper Award, China Association for Science and Technology, Ranked 1/8 — <em>Oct 2022</em></div>
+                    </li>
+                    <li class="honor-item">
+                        <i class="bi bi-star-fill honor-star"></i>
+                        <div class="honor-text">Outstanding Doctoral Dissertation Award, Anhui Province, Ranked 1/2 — <em>Feb 2025</em></div>
+                    </li>
+                    <li class="honor-item">
+                        <i class="bi bi-star-fill honor-star"></i>
+                        <div class="honor-text">Best Paper Award, IEEE International Conference on Communications (ICC'25), Ranked 6/7 — <em>Jun 2025</em></div>
+                    </li>
+                    <li class="honor-item">
+                        <i class="bi bi-star-fill honor-star"></i>
+                        <div class="honor-text">Second Prize, The 4th CCF Quantum Computing Programming Challenge, Ranked 2/3 — <em>Jul 2025</em></div>
+                    </li>
+                    <li class="honor-item">
+                        <i class="bi bi-star-fill honor-star"></i>
+                        <div class="honor-text">Winning Prize, The 4th CCF Quantum Computing Programming Challenge, Ranked 1/3 — <em>Jul 2025</em></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="content-section" id="services">
+            <div class="section-header">
+                <span class="section-icon"><i class="bi bi-gem"></i></span>
+                <h2 class="section-title">Academic Services</h2>
+            </div>
+            <div class="section-divider"></div>
+            <div class="card-section">
+                <ul class="service-list">
+                    <li class="service-item">TPC Member: IEEE Global Communications Conference (GLOBECOM), 2024, 2025</li>
+                    <li class="service-item">TPC Member: International Wireless Communications &amp; Mobile Computing Conference (IWCMC), 2025</li>
+                    <li class="service-item">TPC Member: International Conference on Wireless Communications and Signal Processing (WC&amp;SP), 2024</li>
+                    <li class="service-item">TPC Member: IEEE/CIC International Conference on Communications in China (IEEE/CIC ICCC), 2025</li>
+                    <li class="service-item">Session Chair: International Conference on Wireless Communications and Signal Processing (WC&amp;SP), 2024</li>
+                    <li class="service-item">Reviewer: IEEE Network, IEEE JSAC, IEEE TCOM, China Communications, IEEE TNSM, IEEE ToN, npj Quantum Information, Quantum Information Processing, Advanced Quantum Technology, Journal of Cloud Computing, etc.</li>
+                </ul>
+            </div>
+        </section>
+
+    </div><!-- /page-container -->
+
+    <!-- ========== Footer ========== -->
+    <footer class="site-footer">
+        <div>2025 &copy; All Rights Reserved by Zhonghui Li.</div>
+        <div style="margin-top:0.4rem; font-size:0.8rem; opacity:.6;">
+            School of Electronic and Information Engineering, Anhui University
         </div>
     </footer>
 
-</body>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('mainNav');
+            if (window.scrollY > 30) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
 
+        // ScrollSpy
+        window.addEventListener('DOMContentLoaded', () => {
+            const mainNav = document.getElementById('mainNav');
+            if (mainNav) {
+                new bootstrap.ScrollSpy(document.body, { target: '#mainNav', offset: 70 });
+            }
+            // Collapse nav on click (mobile)
+            document.querySelectorAll('#navbarResponsive .nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    const toggler = document.querySelector('.navbar-toggler');
+                    if (window.getComputedStyle(toggler).display !== 'none') toggler.click();
+                });
+            });
+        });
+    </script>
+</body>
 </html>
