@@ -132,7 +132,7 @@ body {
 .page-container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: -2rem 2rem 2.5rem;
+    padding: 0 2rem 2.5rem;
 }
 
 /* ========== Section ========== */
