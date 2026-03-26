@@ -1027,5 +1027,44 @@
             });
         });
     </script>
+<!-- ========== PDF Preview Modal ========== -->
+    <div class="pdf-modal-overlay" id="pdfModalOverlay" onclick="closePdfOnOverlay(event)">
+        <div class="pdf-modal">
+            <div class="pdf-modal-header">
+                <div class="pdf-modal-title">
+                    <i class="bi bi-file-earmark-pdf-fill"></i>
+                    <span id="pdfModalTitle">PDF Preview</span>
+                </div>
+                <button class="pdf-modal-close" onclick="closePdf()" title="Close"><i class="bi bi-x-lg"></i></button>
+            </div>
+            <div class="pdf-modal-body">
+                <iframe id="pdfModalIframe" src="" allow="fullscreen"></iframe>
+            </div>
+            <div class="pdf-modal-note">
+                <span><i class="bi bi-info-circle me-1"></i>If the PDF does not display, please use the download link below.</span>
+                <a id="pdfModalDownload" href="#" target="_blank" download><i class="bi bi-download"></i>Download</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openPdf(title, url) {
+            document.getElementById('pdfModalTitle').textContent = title;
+            document.getElementById('pdfModalIframe').src = url;
+            document.getElementById('pdfModalDownload').href = url;
+            document.getElementById('pdfModalOverlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        function closePdf() {
+            document.getElementById('pdfModalOverlay').classList.remove('active');
+            document.getElementById('pdfModalIframe').src = '';
+            document.body.style.overflow = '';
+        }
+        function closePdfOnOverlay(e) {
+            if (e.target === document.getElementById('pdfModalOverlay')) closePdf();
+        }
+        document.addEventListener('keydown', e => { if (e.key === 'Escape') closePdf(); });
+    </script>
+
 </body>
 </html>
