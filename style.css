@@ -69,8 +69,19 @@ body {
     height: 340px;
     background: url('https://lzhstone95.github.io/Homepage/static/assets/img/ahu.jpg') center/cover no-repeat;
     display: flex;
-    align-items: flex-end;
+    align-items: center;  /* 改为上下居中 */
     overflow: hidden;
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;  /* 子元素垂直居中 */
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 2.5rem;
 }
 .hero-banner::before {
     content: '';
@@ -82,12 +93,7 @@ body {
     );
 }
 .hero-banner .hero-text {
-    position: relative;
-    z-index: 2;
-    padding: 2.5rem 2.5rem;
-    max-width: 1100px;
-    margin: 0 auto;
-    width: 100%;
+    flex: 1;
 }
 .hero-banner h1 {
     font-family: 'Crimson Pro', serif;
@@ -108,25 +114,21 @@ body {
 }
 
 /* ========== Avatar ========== */
-.avatar-wrap {
-    display: flex;
-    justify-content: flex-end;
-    max-width: 1100px;
-    margin: -60px auto 0;
-    padding: 0 2.5rem;
-    position: relative;
-    z-index: 10;
+.hero-avatar {
+    flex-shrink: 0;
+    margin-left: 2rem;
 }
-.avatar-wrap img {
-    width: 130px;
-    height: 175px;
+.hero-avatar img {
+    width: 150px;
+    height: 200px;
     object-fit: cover;
     border-radius: var(--radius-sm);
     border: 4px solid #fff;
-    box-shadow: 0 8px 28px rgba(0,0,0,0.20);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.25);
     transition: transform 0.3s;
 }
-.avatar-wrap img:hover { transform: scale(1.03); }
+.hero-avatar img:hover { transform: scale(1.03); }
+
 
 /* ========== Page Layout ========== */
 .page-container {
@@ -629,15 +631,17 @@ body {
 
 /* ========== Responsive ========== */
 @media (max-width: 768px) {
-    .hero-banner { height: 220px; }
+    .hero-banner { height: 280px; }  /* 增加高度容纳图片 */
     .hero-banner h1 { font-size: 1.8rem; }
-    .avatar-wrap { margin-top: -45px; padding: 0 1.5rem; }
-    .avatar-wrap img { width: 100px; height: 135px; }
+    .hero-content { padding: 0 1.5rem; }
+    .hero-avatar { margin-left: 1rem; }
+    .hero-avatar img { width: 110px; height: 150px; }
     .page-container { padding: 0 1.2rem 3rem; }
     .card-section { padding: 1.25rem 1.25rem; }
     .members-grid { grid-template-columns: repeat(3, 1fr); gap: 1rem; }
 }
 @media (max-width: 480px) {
-    .hero-banner { height: 180px; }
+    .hero-banner { height: 240px; }
     .hero-banner h1 { font-size: 1.45rem; }
+    .hero-avatar img { width: 90px; height: 120px; }
 }
