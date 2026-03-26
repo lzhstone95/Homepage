@@ -325,7 +325,7 @@
         /* ========== Members ========== */
         .members-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            grid-template-columns: repeat(5, 1fr);  /* 固定5列 */
             gap: 1.5rem;
         }
         .member-card {
@@ -347,7 +347,6 @@
             object-fit: cover;
             border-radius: 8px;
             margin-bottom: 0.75rem;
-            border: 2px solid var(--border-light);
         }
         .member-name {
             font-weight: 700;
@@ -539,7 +538,7 @@
             .avatar-wrap img { width: 100px; height: 135px; }
             .page-container { padding: 0 1.2rem 3rem; }
             .card-section { padding: 1.25rem 1.25rem; }
-            .members-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 1rem; }
+            .members-grid { grid-template-columns: repeat(3, 1fr); gap: 1rem; }
         }
         @media (max-width: 480px) {
             .hero-banner { height: 180px; }
