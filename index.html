@@ -420,6 +420,129 @@
             color: var(--primary);
         }
 
+        /* ========== Course Resource Tags ========== */
+        .course-resources {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            margin-top: 0.55rem;
+        }
+        .res-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.28rem;
+            font-size: 0.72rem;
+            font-weight: 500;
+            padding: 0.22rem 0.6rem;
+            border-radius: 20px;
+            cursor: pointer;
+            border: 1px solid transparent;
+            transition: all 0.18s ease;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        .res-tag i { font-size: 0.78rem; }
+        .res-tag:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 3px 8px rgba(0,0,0,.12);
+        }
+        .res-tag-1  { background:#fff3e0; color:#c67c00; border-color:#f5d28a; }
+        .res-tag-1:hover  { background:#ffe0a0; }
+        .res-tag-2  { background:#e3f2fd; color:#1565c0; border-color:#90caf9; }
+        .res-tag-2:hover  { background:#bbdefb; }
+        .res-tag-3  { background:#e8f5e9; color:#2e7d32; border-color:#a5d6a7; }
+        .res-tag-3:hover  { background:#c8e6c9; }
+        .res-tag-4  { background:#fce4ec; color:#c62828; border-color:#f48fb1; }
+        .res-tag-4:hover  { background:#f8bbd0; }
+        .res-tag-5  { background:#ede7f6; color:#4527a0; border-color:#b39ddb; }
+        .res-tag-5:hover  { background:#d1c4e9; }
+        .res-tag-6  { background:#e0f7fa; color:#00695c; border-color:#80deea; }
+        .res-tag-6:hover  { background:#b2ebf2; }
+        .res-tag-7  { background:#f3e5f5; color:#6a1b9a; border-color:#ce93d8; }
+        .res-tag-7:hover  { background:#e1bee7; }
+
+
+        /* ========== PDF Preview Modal ========== */
+        .pdf-modal-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+         background: rgba(0,0,0,.6);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+        }
+        .pdf-modal-overlay.active { display: flex; }
+        .pdf-modal {
+            background: #fff;
+            border-radius: 12px;
+            width: min(90vw, 900px);
+            height: min(88vh, 700px);
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 20px 60px rgba(0,0,0,.35);
+            overflow: hidden;
+        }
+        .pdf-modal-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.85rem 1.2rem;
+            background: var(--primary);
+            color: #fff;
+        }
+        .pdf-modal-title {
+            font-weight: 600;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .pdf-modal-close {
+            background: rgba(255,255,255,.2);
+             border: none;
+             color: #fff;
+             width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            transition: background 0.15s;
+        }
+        .pdf-modal-close:hover { background: rgba(255,255,255,.35); }
+        .pdf-modal-body {
+            flex: 1;
+            overflow: hidden;
+        }
+        .pdf-modal-body iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .pdf-modal-note {
+            padding: 0.7rem 1.2rem;
+            font-size: 0.8rem;
+            color: var(--text-light);
+            background: var(--bg-page);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+        }
+        .pdf-modal-note a {
+            color: var(--primary);
+            font-weight: 500;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+        .pdf-modal-note a:hover { text-decoration: underline; }
+
+
         /* ========== Publications ========== */
         .pub-list { list-style: none; padding: 0; margin: 0; }
         .pub-item {
@@ -710,6 +833,15 @@
                             <div class="teaching-meta">
                                 <span class="teaching-badge badge-required">Required</span>
                                 First-year Undergraduate
+                            </div>
+                            <div class="course-resources">
+                                <span class="res-tag res-tag-1" onclick="openPdf('Chapter 1: Introduction to C Programming', 'https://lzhstone95.github.io/Homepage/static/assets/pdf/alp_ch1.pdf')"><i class="bi bi-file-earmark-pdf-fill"></i>Ch.1 Introduction</span>
+                                <span class="res-tag res-tag-2" onclick="openPdf('Chapter 1: Introduction to C Programming', 'https://lzhstone95.github.io/Homepage/static/assets/pdf/alp_ch1.pdf')"><i class="bi bi-file-earmark-pdf-fill"></i>Ch.1 Introduction</span>       
+                                <span class="res-tag res-tag-3" onclick="openPdf('Chapter 1: Introduction to C Programming', 'https://lzhstone95.github.io/Homepage/static/assets/pdf/alp_ch1.pdf')"><i class="bi bi-file-earmark-pdf-fill"></i>Ch.1 Introduction</span>
+                                <span class="res-tag res-tag-4" onclick="openPdf('Chapter 1: Introduction to C Programming', 'https://lzhstone95.github.io/Homepage/static/assets/pdf/alp_ch1.pdf')"><i class="bi bi-file-earmark-pdf-fill"></i>Ch.1 Introduction</span>
+                                <span class="res-tag res-tag-5" onclick="openPdf('Chapter 1: Introduction to C Programming', 'https://lzhstone95.github.io/Homepage/static/assets/pdf/alp_ch1.pdf')"><i class="bi bi-file-earmark-pdf-fill"></i>Ch.1 Introduction</span>     
+                                <span class="res-tag res-tag-6" onclick="openPdf('Chapter 1: Introduction to C Programming', 'https://lzhstone95.github.io/Homepage/static/assets/pdf/alp_ch1.pdf')"><i class="bi bi-file-earmark-pdf-fill"></i>Ch.1 Introduction</span> 
+                                <span class="res-tag res-tag-7" onclick="openPdf('Chapter 1: Introduction to C Programming', 'https://lzhstone95.github.io/Homepage/static/assets/pdf/alp_ch1.pdf')"><i class="bi bi-file-earmark-pdf-fill"></i>Ch.1 Introduction</span>                   
                             </div>
                         </div>
                     </li>
